@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="//cdn.kuanyes.com/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/sale.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/payfor.js"></script>
+    <title>确认订单</title>
+</head>
+<body>
+<div class="confirm">
+    <a href="#"><img src="images/addadreeicon.png"/>添加收货地址</a>
+</div>
+<div class="saleshop">
+    <dl>
+        <dt><img src="images/8.png"></dt>
+        <dd><span class="w80">澳洲直邮Elevit爱乐维叶酸营养片复合维生素100片备孕孕期</span><span class="cny" id="price_item_1">¥21.60</span></dd>
+        <dd>规格35ml<span class="number"><small>X</small>2</span></dd>
+    </dl>
+</div>
+<div class="message">
+    <ul>
+        <li>运费<span class="pull-right">免邮</span></li>
+        <li>数量<span class="num"><a class="reduce" onClick="setAmount.reduce('#qty_item_1')" href="javascript:void(0)">-</a>
+            <input type="tel" name="qty_item_1" value="1" id="qty_item_1" onKeyUp="setAmount.modify('#qty_item_1')"
+                   class="text"/>
+            <a class="add" onClick="setAmount.add('#qty_item_1')" href="javascript:void(0)">+</a></span></li>
+        <li class="br-n">合计 <span class="pull-right cny" id="total_item_1">21.6</span></li>
+    </ul>
+</div>
+<div class="paybtn">
+    <button type="button" class="btn btn-danger btn-lg btn-block">支付</button>
+</div>
+</body>
+</html>
