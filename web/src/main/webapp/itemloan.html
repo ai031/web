@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<!--/*@thymesVar id="project" type="me.jiangcai.dating.model.trj.Loan"*/-->
+<!--/*@thymesVar id="creditLimitYears" type="java.lang.Integer"*/-->
+<!--/*@thymesVar id="loanTermDays" type="java.lang.Integer"*/-->
+<!--/*@thymesVar id="#cashStrings" type="me.jiangcai.dating.service.CashStrings"*/-->
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>网商宝</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/meiyue.css">
+    <script src="dist/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form action="itempersonalup.html" method="get" th:method="post" th:action="@{/loanSummary}">
+    <div class="bg-one mb-b">
+        <input name="id" type="hidden" th:value="${project.productId}"/>
+        <div class="loan">
+            <p class="t1" th:name="limitSpan" th:text="${'借款金额(50000元-'+project.amountInteger+'元)'}">
+                借款金额</p>
+            <p class="jk c33"><img src="images/1.png"><input placeholder="0.00" type="tel" id="_content" name="amount">
+            </p>
+            <ul>
+                <li class="bo-b" th:name="termDays">借款周期<span class="pull-right bright-w"><img
+                        src="images/blackright-r.png"></span>
+                    <!--<span class="pull-right c33" th:text="${loanTermDays+'天'}">30天</span>-->
+                    <select name="period" class="pull-right" style="margin-top: 12px;">
+                        <option value="30">30天年化7%
+                        </option>
+                        <option value="90">90天年化9%</option>
+                        <option value="180">180天年化10%</option>
+                    </select>
+                </li>
+                <li th:name="limitYears"><img src="images/miicon.png"/> <span
+                        th:text="'借款授信期限'+${creditLimitYears}+'年'">借款授信期限2年</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="p-15 ">
+        <input value="立即借款" type="submit" class="redremove" id="_btn1"/>
+    </div>
+</form>
+<p class="notes" ><a href="#"data-toggle="modal" data-target="#safecode" >产品介绍</a></p>
+<script th:inline="javascript">
+    $.maxLoanAmount = /*[[${project.amountInteger}]]*/200000;
+    $.minLoanAmount = /*[[${project.minAmount}]]*/1;
+</script>
+<script src="js/loan.js"></script>
+<!-- 产品介绍 -->
+<div class="modal fade" id="safecode" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content ">
+            <div class="safeshow">
+                <h1>产品介绍</h1>
+                <p class="txt">
+                    本借款项目系为网上商城的个人经营者提供的经营性借款项目。该项目由网上商城的经营者作为借款人，经合作的网上商城审核推荐到投融家平台申请借款。经过投融家平台审核后，确认借款人资信良好，借款用途真实，由借款人在平台方发布借款信息，申请借款。
+                    <br>本借款项目由借款人入驻的网上商城运营方提供资金监管，借款人借款获得的资金定向支付到网上商城平台方用于支付货物采购的保证金。本产品具有借款资金管控、借款用途真实、借款保障系数高的特点。</p>
+                <p data-dismiss="modal" class="know">确定</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

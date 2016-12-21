@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<!--/*@thymesVar id="#cashStrings" type="me.jiangcai.dating.service.CashStrings"*/-->
+<!--/*@thymesVar id="user" type="me.jiangcai.dating.entity.User"*/-->
+<!--/*@thymesVar id="cards" type="java.lang.Iterable<me.jiangcai.dating.entity.Card>"*/-->
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>我的银行卡</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/meiyue.css">
+    <script src="dist/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="cardtab">
+    <ul>
+        <li><a href="bankcard.html"> 借记卡</a></li>
+        <li  class="curr">信用卡</li>
+    </ul>
+</div>
+<div class="bankcard" th:each="card:${cards}">
+    <div class="card" onClick="toshow()">
+        <dl class="blue" th:style="${'background:'+card.bank.background}"
+            style="background: linear-gradient(to right, #588CC6 , #4669B4);">
+            <dt><img src="images/logo-gs.png" th:src="@{${card.bank.imageUri}}" class="img-circle"></dt>
+            <dd><span class="txt" th:text="${card.bank.name}">杭州银行</span>
+                <span class="code-n" th:text="${#cashStrings.bankCardNumber(card.number)}">信用卡</span>
+                <span class="mi">**** **** ****</span> <span class="num">3333</span>
+            </dd>
+        </dl>
+    </div>
+</div>
+<div class="bankcard" th:remove="all">
+    <div class="card" >
+        <dl class="green">
+            <dt><img src="images/temp.jpg" class="img-circle"></dt>
+            <dd><span class="txt">杭州银行</span>
+                <span class="code-n">信用卡</span>
+                <span class="mi">**** **** ****</span> <span class="num">3333</span>
+            </dd>
+        </dl>
+    </div>
+</div>
+<div class="bankcard" th:remove="all">
+    <div class="card">
+        <dl class="yellow">
+            <dt><img src="images/temp.jpg" class="img-circle"></dt>
+            <dd><span class="txt">杭州银行</span>
+                <span class="code-n">信用卡</span>
+                <span class="mi">**** **** ****</span> <span class="num">3333</span>
+            </dd>
+        </dl>
+    </div>
+</div>
+<div class="add-bank"><a href="addcredit.html" th:href="@{/card}"><img src="images/blackright-r.png">添加信用卡</a>
+</div>
+
+<div class="am-show">
+    <div class="am-show-footer"><a class="delete_btn">删除</a></div>
+    <div class="am-show-footer"><a class="close-btn">取消</a></div>
+</div>
+<script type="text/javascript">
+    function toshow(){
+        $(".am-show").addClass("am-modal-active");
+        if($(".showbg").length>0){
+            $(".showbg").addClass("showbg-active");
+        }else{
+            $("body").append('<div class="showbg"></div>');
+            $(".showbg").addClass("showbg-active");
+        }
+        $(".showbg-active,.delete_btn").click(function(){
+            $(".am-show").removeClass("am-modal-active");
+            setTimeout(function(){
+                $(".showbg-active").removeClass("showbg-active");
+                $(".showbg").remove();
+            },300);
+        })
+        $(".showbg-active,.close-btn").click(function(){
+            $(".am-show").removeClass("am-modal-active");
+            setTimeout(function(){
+                $(".showbg-active").removeClass("showbg-active");
+                $(".showbg").remove();
+            },300);
+        })
+    }
+</script>
+<!--<div class="modcard">-->
+<!--<ul>-->
+<!--<li>添加银行卡<i class="fa fa-angle-right fa-2x pull-right"></i></li>-->
+<!--</ul>-->
+<!--</div>-->
+</body>
+</html>
