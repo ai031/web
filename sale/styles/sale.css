@@ -436,7 +436,7 @@ ul, li, dl {
 .saleshop dt{ overflow: hidden; float: left; width: 80px; height: 80px; margin-right: 10px}
 .saleshop dt img{width: 80px; height: 80px;}
 .saleshop dd{float: left; overflow: hidden; width:74%; position: relative}
-.saleshop .w80{ width: 80%; display: block;color: #353535;  }
+.saleshop .w80{ width: 96%; display: block;color: #353535;  }
 .saleshop .cny{
     font-size: 14px;
     float: right;
