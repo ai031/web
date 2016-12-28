@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbed63ea-2552-4b4e-b4dd-71fd695a8da5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/myorder.html" afterPath="$PROJECT_DIR$/sale/myorder.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/styles/sale.css" afterPath="$PROJECT_DIR$/sale/styles/sale.css" />
     </list>
     <ignored path="web.iws" />
@@ -25,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="myorder.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="myorder.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sale/myorder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="-197">
+              <caret line="87" column="57" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -48,18 +49,18 @@
       <file leaf-file-name="organictabs.jquery.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sale/js/organictabs.jquery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="94" column="36" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="36" />
+            <state relative-caret-position="405">
+              <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sale.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sale.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sale/styles/sale.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="512" column="0" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="12" />
+            <state relative-caret-position="373">
+              <caret line="594" column="1" selection-start-line="594" selection-start-column="1" selection-end-line="594" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -90,8 +91,8 @@
         <option value="$PROJECT_DIR$/sale/playtwo.html" />
         <option value="$PROJECT_DIR$/sale/kong.html" />
         <option value="$PROJECT_DIR$/sale/js/organictabs.jquery.js" />
-        <option value="$PROJECT_DIR$/sale/myorder.html" />
         <option value="$PROJECT_DIR$/sale/styles/sale.css" />
+        <option value="$PROJECT_DIR$/sale/myorder.html" />
       </list>
     </option>
   </component>
@@ -282,12 +283,12 @@
       <workItem from="1482390269298" duration="1746000" />
       <workItem from="1482467191670" duration="440000" />
       <workItem from="1482818639670" duration="7080000" />
-      <workItem from="1482896953266" duration="7582000" />
+      <workItem from="1482896953266" duration="8532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42944000" />
+    <option name="totallyTimeSpent" value="43894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -619,24 +620,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sale/js/organictabs.jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="94" column="36" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/myorder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="405">
+          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sale/styles/sale.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="512" column="0" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="12" />
+        <state relative-caret-position="373">
+          <caret line="594" column="1" selection-start-line="594" selection-start-column="1" selection-end-line="594" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/myorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="87" column="57" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="57" />
           <folding />
         </state>
       </provider>
