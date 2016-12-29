@@ -76,12 +76,11 @@ ul, li, dl, dd{
 .fiexcny a {
     color: #fff;
     text-align: center;
-    line-height: 25px;
     display: block;
     border-radius: 4px;
     background: #f65150;
     width: 55px;
-    height: 25px;
+    padding: 3px 0;
     float: right;
 
 }

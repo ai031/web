@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbed63ea-2552-4b4e-b4dd-71fd695a8da5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/carddetails.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/playclose.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/playfinish.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/playgood.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/playshop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/playto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/addaddress.html" afterPath="$PROJECT_DIR$/sale/addaddress.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/details.html" afterPath="$PROJECT_DIR$/sale/details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/myorder.html" afterPath="$PROJECT_DIR$/sale/myorder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/play.html" afterPath="$PROJECT_DIR$/sale/play.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/playtwo.html" afterPath="$PROJECT_DIR$/sale/playtwo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/saleindex.html" afterPath="$PROJECT_DIR$/sale/saleindex.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/styles/sale.css" afterPath="$PROJECT_DIR$/sale/styles/sale.css" />
     </list>
     <ignored path="web.iws" />
@@ -48,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saleindex.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="saleindex.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sale/saleindex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="120">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -128,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sale.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sale.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sale/styles/sale.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
+            <state relative-caret-position="358">
               <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
               <folding />
             </state>
@@ -362,12 +349,12 @@
       <workItem from="1482467191670" duration="440000" />
       <workItem from="1482818639670" duration="7080000" />
       <workItem from="1482896953266" duration="9395000" />
-      <workItem from="1482988576148" duration="6340000" />
+      <workItem from="1482988576148" duration="6520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51097000" />
+    <option name="totallyTimeSpent" value="51277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -764,18 +751,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sale/saleindex.html">
+    <entry file="file://$PROJECT_DIR$/sale/styles/sale.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="358">
+          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sale/styles/sale.css">
+    <entry file="file://$PROJECT_DIR$/sale/saleindex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding />
         </state>
       </provider>
