@@ -69,7 +69,8 @@ ul, li, dl, dd{
     height: 132px;
     float: left;
     width: 54%;
-    position: relative;;
+    position: relative;
+    margin-right: -15px;
 
 }
 
@@ -82,6 +83,7 @@ ul, li, dl, dd{
     width: 55px;
     padding: 3px 0;
     float: right;
+    text-decoration: none;
 
 }
 
@@ -89,6 +91,7 @@ ul, li, dl, dd{
     font-size: 15px;
     padding: 0;
     margin: 0;
+    font-weight: 400;
 }
 
 .fiexcny img {

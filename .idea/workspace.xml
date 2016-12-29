@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbed63ea-2552-4b4e-b4dd-71fd695a8da5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/images/8.png" afterPath="$PROJECT_DIR$/sale/images/8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/details.html" afterPath="$PROJECT_DIR$/sale/details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/saleindex.html" afterPath="$PROJECT_DIR$/sale/saleindex.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/styles/sale.css" afterPath="$PROJECT_DIR$/sale/styles/sale.css" />
     </list>
     <ignored path="web.iws" />
@@ -28,7 +32,7 @@
       <file leaf-file-name="myorder.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sale/myorder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="1740">
               <caret line="116" column="30" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
               <folding />
             </state>
@@ -38,8 +42,8 @@
       <file leaf-file-name="saleindex.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sale/saleindex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="67">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -68,7 +72,7 @@
       <file leaf-file-name="block.rnc" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="3150">
               <caret line="210" column="16" selection-start-line="210" selection-start-column="16" selection-end-line="210" selection-end-column="16" />
               <folding />
             </state>
@@ -78,7 +82,7 @@
       <file leaf-file-name="address.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sale/address.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="240">
               <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding />
             </state>
@@ -88,8 +92,8 @@
       <file leaf-file-name="details.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sale/details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="49" column="71" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="71" />
+            <state relative-caret-position="255">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,7 +102,7 @@
       <file leaf-file-name="playgood.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sale/playgood.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="375">
               <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding />
             </state>
@@ -118,8 +122,8 @@
       <file leaf-file-name="sale.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sale/styles/sale.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+            <state relative-caret-position="40">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,8 +158,8 @@
         <option value="$PROJECT_DIR$/sale/playshop.html" />
         <option value="$PROJECT_DIR$/sale/carddetails.html" />
         <option value="$PROJECT_DIR$/sale/playgood.html" />
-        <option value="$PROJECT_DIR$/sale/details.html" />
         <option value="$PROJECT_DIR$/sale/myorder.html" />
+        <option value="$PROJECT_DIR$/sale/details.html" />
         <option value="$PROJECT_DIR$/sale/saleindex.html" />
         <option value="$PROJECT_DIR$/sale/styles/sale.css" />
       </list>
@@ -197,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,7 +262,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -349,12 +353,13 @@
       <workItem from="1482467191670" duration="440000" />
       <workItem from="1482818639670" duration="7080000" />
       <workItem from="1482896953266" duration="9395000" />
-      <workItem from="1482988576148" duration="6520000" />
+      <workItem from="1482988576148" duration="7357000" />
+      <workItem from="1482996605133" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51277000" />
+    <option name="totallyTimeSpent" value="52136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -592,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="637" column="13" selection-start-line="637" selection-start-column="12" selection-end-line="637" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1380">
           <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sale/playgood.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="375">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
@@ -713,16 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sale/address.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="240">
           <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -737,15 +730,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sale/myorder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="1740">
           <caret line="116" column="30" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="3150">
           <caret line="210" column="16" selection-start-line="210" selection-start-column="16" selection-end-line="210" selection-end-column="16" />
           <folding />
         </state>
@@ -753,16 +754,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sale/styles/sale.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        <state relative-caret-position="40">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sale/saleindex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="67">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding />
         </state>
       </provider>
