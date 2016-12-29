@@ -33,6 +33,8 @@ ul, li, dl, dd{
     overflow: hidden;
     background: #fff;
     min-height: 700px;
+    padding-left: 15px;
+    margin-top: 15px;
 }
 
 .fiexcny {
@@ -48,28 +50,25 @@ ul, li, dl, dd{
 
 .salelist dl {
     overflow: hidden;
-
+    border-bottom: 1px solid #dfdfdf;
+    padding: 10px 0;
 }
 
 .salelist dt {
     float: left;
     overflow: hidden;
-    padding-bottom: 5px;
-
+    margin-right: 10px;
 }
 
 .salelist dt img {
     width: 130px;
     height: 130px;
-    margin-right: 10px;
 }
 
 .salelist dd {
-    padding-top: 15px;
     height: 132px;
-    border-bottom: 1px solid #dfdfdf;
     float: left;
-    width: 62%;
+    width: 54%;
     position: relative;;
 
 }
@@ -84,7 +83,7 @@ ul, li, dl, dd{
     width: 55px;
     height: 25px;
     float: right;
-    margin-right: 15px;
+
 }
 
 .salelist dd h1 {
@@ -476,7 +475,6 @@ ul, li, dl, dd{
 
 .saleshop {
     margin-top: 15px;
-    display: none;
 }
 
 .saleshop .time {
@@ -618,7 +616,8 @@ ul, li, dl, dd{
     border-bottom: 1px solid #dfdfdf;
     margin-bottom: 30px;
     background: #fff;
-    padding-left: 15px
+    padding-left: 15px;
+    color: #888;
 }
 
 .message ul {
@@ -657,7 +656,6 @@ ul, li, dl, dd{
 }
 
 .edit li {
-    line-height: 44px;
     color: #000;
     font-size: 15px;
     overflow: hidden;;
@@ -671,10 +669,13 @@ ul, li, dl, dd{
     -moz-appearance: none;
     -webkit-appearance: none;
     width: 70%;
-}
+    height: 46px;
 
+}
+.edit img{ width: 8px; margin: 17px 15px 0 0; float: right}
 .edit select {
     color: #777;
+    height: 46px;
 }
 
 .edit label {
@@ -689,17 +690,19 @@ ul, li, dl, dd{
 
 .add-user ul {
     overflow: hidden;
-    padding: 16px 0 0 0
+    padding: 15px 15px 10px 15px
 }
 
 .add-user li {
     text-align: left;
     font-size: 13px;
+    float: left;
 }
 
 .add-user .map {
     width: 18px;
     margin-top: 13px;
+    margin-right: 10px;
 }
 
 .add-user .ricon {
@@ -714,7 +717,7 @@ ul, li, dl, dd{
 .add-user .f14 {
     font-size: 14px;
 }
-
+.add-user .w80{width: 86%}
 .over {
     text-align: center;
     margin-bottom: 30px;
@@ -798,7 +801,6 @@ ul, li, dl, dd{
 
 .address .f13 {
     font-size: 13px;
-    margin-top: 5px;
 }
 
 .address img {
@@ -921,3 +923,33 @@ ul, li, dl, dd{
 .noorder img{ width: 40%; margin: 100px auto 10px auto}
 .noorder h1{ color: #353535; font-size: 17px;}
 .bgcolor{ background: #fff}
+.none{ display: none}
+.o-f{ background: #999900; color: #fff; padding: 10px 15px 10px 15px; margin-bottom: 15px}
+.o-f ul{ overflow: hidden}
+.o-f li{ float: left; }
+.o-f h1{ font-size: 16px; margin: 0;
+    line-height:30px;}
+.o-f img{ width: 24px; margin: 15px 10px 0 0; }
+.o-f .f14{ opacity: 0.8}
+
+.o-c{ background: #a0a0a0; color: #fff; padding: 10px 15px 10px 15px; margin-bottom: 15px}
+.o-c ul{ overflow: hidden}
+.o-c li{ float: left; }
+.o-c h1{ font-size: 16px; margin: 0;
+    line-height:30px;}
+.o-c img{ width: 24px; margin: 4px 10px 0 0; }
+
+.o-t{ background: #F17A79; color: #fff; padding: 10px 15px 10px 15px; margin-bottom: 15px}
+.o-t ul{ overflow: hidden}
+.o-t li{ float: left; }
+.o-t h1{ font-size: 16px; margin: 0;
+    line-height:30px;}
+.o-t img{ width: 24px; margin: 4px 10px 0 0; }
+
+.o-g{ background: #F17A79; color: #fff; padding: 10px 15px 10px 15px; margin-bottom: 15px}
+.o-g ul{ overflow: hidden}
+.o-g li{ float: left; }
+.o-g h1{ font-size: 16px; margin: 0;
+    line-height:30px;}
+.o-g img{ width: 24px; margin: 15px 10px 0 0; }
+.o-g .f14{ opacity: 0.8}
