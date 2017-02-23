@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:res="http://resource.jiangcai.me" lang="en">
+<!--/*@thymesVar id="code" type="me.jiangcai.dating.entity.sale.TicketCode"*/-->
+<!--/*@thymesVar id="#cashStrings" type="me.jiangcai.dating.service.CashStrings"*/-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="//cdn.kuanyes.com/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/sale.css">
+    <script src="//cdn.kuanyes.com/jquery-3.1.1.min.js"></script>
+    <script src="//cdn.kuanyes.com/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script src="../mock/all.js" th:src="@{/all.js}"></script>
+    <title>我的优惠券</title>
+</head>
+<body class="bg-black">
+<div class="coupon">
+    <p>
+        <img src="images/8.png" class="cpimg" res:src="${code.batch.goods.titleGoodsImage.defaultImage.resourcePath}"/>
+        <span th:text="${code.batch.goods.brand}">星巴克</span>
+        <span class="pull-right mt7"><img src="images/couponicon2.png" class="loadimg"/>全国通用</span></p>
+    <div class="card-s">
+        <p class="f13" th:text="${code.batch.goods.name}">可兑换星巴克大杯咖啡一杯</p>
+        <h1><span class="f35" th:text="${#cashStrings.mallPrice(code.batch.goods.price)+'元'}">28元</span>电子券</h1>
+        <p data-toggle="modal" data-target=".Use" class="usered paybtn">
+            <button type="button" class="btn btn-danger btn-lg btn-block">立即使用</button>
+        </p>
+    </div>
+    <div class="details bg-none">
+        <span class="f14">使用须知</span>
+        <p th:utext="${code.batch.goods.notes}">• 可+3元升级成超大杯 <br>
+            • 不可与店内其他优惠同享<br>
+            • 不可换购其他甜品<br>
+            • 一人可购买多张券<br>
+            • 券的使用期限以券上的截止日期为准<br>
+            • 此优惠券全国通用</p>
+    </div>
+</div>
+<!--使用 show-->
+<div class="modal fade ticketCode" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg ewmshow">
+        <div class="modal-content">
+            <!--<p th:text="${'优惠券:'+code.code}"></p>-->
+            <p><img name="qrCode" src="images/temp2.png"
+                    th:src="@{/sale/ticket/{code}(code=${code.ticketCodePK.getURIFormat()})}"
+                    alt="付款二维码"/>
+            </p>
+            <p class="f16">向商家出示以上券码即可消费</p>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade Use" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content editshow">
+            <h1>使用时需要向商家出示此二维码</h1>
+            <div class="footer">
+                <button type="button" class="line-r" data-dismiss="modal">取消</button>
+                <button type="button" class="confirm" data-dismiss="modal">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--使用show end-->
+<script th:inline="javascript">
+    $.TicketCodePK = /*[[${code.ticketCodePK.getURIFormat()}]]*/ 'abc';
+</script>
+<script>
+    $(function () {
+        var confirmDiv = $(".confirm");
+
+        confirmDiv.click(function () {
+            $('.ticketCode').modal();
+            $.ajax($.uriPrefix + '/sale/ticket/' + $.TicketCodePK, {
+                method: 'put'
+            });
+        });
+    });
+</script>
+</body>
+</html>
