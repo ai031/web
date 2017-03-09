@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbed63ea-2552-4b4e-b4dd-71fd695a8da5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mark-pc/details.html" afterPath="$PROJECT_DIR$/mark-pc/details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mark-pc/styles/styles.css" afterPath="$PROJECT_DIR$/mark-pc/styles/styles.css" />
-    </list>
+    <list default="true" id="dbed63ea-2552-4b4e-b4dd-71fd695a8da5" name="Default" comment="" />
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -425,12 +422,12 @@
       <workItem from="1488938352349" duration="18815000" />
       <workItem from="1489025201132" duration="3489000" />
       <workItem from="1489033498546" duration="234000" />
-      <workItem from="1489044196961" duration="1119000" />
+      <workItem from="1489044196961" duration="1236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134188000" />
+    <option name="totallyTimeSpent" value="134305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
