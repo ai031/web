@@ -29,8 +29,8 @@
       <file leaf-file-name="details.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mark-pc/details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="158" column="18" selection-start-line="158" selection-start-column="18" selection-end-line="158" selection-end-column="19" />
+            <state relative-caret-position="308">
+              <caret line="156" column="24" selection-start-line="156" selection-start-column="24" selection-end-line="156" selection-end-column="24" />
               <folding>
                 <element signature="e#5779#5785#0" expanded="true" />
                 <element signature="e#5785#5791#0" expanded="true" />
@@ -141,8 +141,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mark-pc/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1196" column="15" selection-start-line="1196" selection-start-column="15" selection-end-line="1196" selection-end-column="15" />
+            <state relative-caret-position="202">
+              <caret line="1205" column="36" selection-start-line="1205" selection-start-column="36" selection-end-line="1205" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -425,12 +425,12 @@
       <workItem from="1488938352349" duration="18815000" />
       <workItem from="1489025201132" duration="3489000" />
       <workItem from="1489033498546" duration="234000" />
-      <workItem from="1489044196961" duration="884000" />
+      <workItem from="1489044196961" duration="1119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133953000" />
+    <option name="totallyTimeSpent" value="134188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -696,8 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mark-pc/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="158" column="18" selection-start-line="158" selection-start-column="18" selection-end-line="158" selection-end-column="19" />
+        <state relative-caret-position="308">
+          <caret line="156" column="24" selection-start-line="156" selection-start-column="24" selection-end-line="156" selection-end-column="24" />
           <folding>
             <element signature="e#5779#5785#0" expanded="true" />
             <element signature="e#5785#5791#0" expanded="true" />
@@ -711,8 +711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mark-pc/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1196" column="15" selection-start-line="1196" selection-start-column="15" selection-end-line="1196" selection-end-column="15" />
+        <state relative-caret-position="202">
+          <caret line="1205" column="36" selection-start-line="1205" selection-start-column="36" selection-end-line="1205" selection-end-column="36" />
           <folding />
         </state>
       </provider>

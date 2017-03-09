@@ -1203,7 +1203,7 @@ button, input, select, textarea {
     background: #fff;
 
 }
-.show-t .wx li{ background: #fff; width:180px; height:180px; }
+.show-t .wx li{ text-align: center; background: #fff; width:180px; height:180px; }
 .show-t .wx h3{ text-align:center;color: #db9b17;font-size: 14px; margin: 0;padding-top: 2px }
 .show-t .zfb {
     padding: 15px;
@@ -1220,7 +1220,7 @@ button, input, select, textarea {
     background: #fff;
 
 }
-.show-t .zfb li{ background: #fff; width:180px; height:180px; }
+.show-t .zfb li{ text-align: center; background: #fff; width:180px; height:180px; }
 .show-t .zfb h3{ text-align:center; color: #448653; font-size: 14px;margin: 0; padding-top: 2px}
 .show-t .cl{ padding:33px ; overflow: hidden }
 .show-t .cl img{ width: 330px; height: 75px; }
