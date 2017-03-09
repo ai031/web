@@ -2,43 +2,869 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbed63ea-2552-4b4e-b4dd-71fd695a8da5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/close-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/coubg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/couponicon01" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/couponicon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/gouicon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/my-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/my-icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/ordericon02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/payicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/payicon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/payicon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/temp2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/images/wrongicon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/Flow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/Oilcard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/Oilcardlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/Oilplayfinish.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale/styles/bootstrap.min.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sale/images/ordericon02" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sale/images/ordericon01" afterPath="$PROJECT_DIR$/sale/images/ordericon01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sale/images/ordericon03" afterPath="$PROJECT_DIR$/sale/images/ordericon03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/images/8.png" afterPath="$PROJECT_DIR$/sale/images/8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/images/huan-icon.png" afterPath="$PROJECT_DIR$/sale/images/huan-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/images/huan-icon2.png" afterPath="$PROJECT_DIR$/sale/images/huan-icon2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/images/sale-icon.png" afterPath="$PROJECT_DIR$/sale/images/sale-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/images/sale-icon2.png" afterPath="$PROJECT_DIR$/sale/images/sale-icon2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/images/whosle-icon.png" afterPath="$PROJECT_DIR$/sale/images/whosle-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/images/whosle-icon2.png" afterPath="$PROJECT_DIR$/sale/images/whosle-icon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mark-pc/details.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mark-pc/hot.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mark-pc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mark-pc/js/messages_cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mark-pc/js/vali.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mark-pc/nz.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mark-pc/sale.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mark-pc/styles/styles.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/applytest.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cdn.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deploy.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/push.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/META-INF/persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/CashFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/DataField.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/DataFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/Locker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/LongString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/ProfitSplit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/ThreadSafe.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/Time8Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/Version.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/aop/Join.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/channel/ArbitrageAccountStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/channel/ArbitrageChannel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/channel/ChroneService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/channel/PayChannel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/channel/impl/ChroneServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/channel/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/core/CommonConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/core/CoreConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/core/DataSupportConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/core/Login.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/AgentInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/AgentRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/Bank.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/Card.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/CashOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/ChanpayOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/ChanpayWithdrawalOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/LoanRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/LoginToken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/Mobile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/NotifyMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/NotifyMessageParameter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/PayOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/PayToUserOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/PlatformOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/PlatformWithdrawalOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/ProjectLoanRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/SubBranchBank.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/SystemString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/UserAgentInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/UserLoanData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/UserOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/UserPaymentExtend.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/VerificationCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/WithdrawOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/channel/ChroneOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/converter/CityConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/converter/ColorConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/converter/ProvinceConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/sale/CashGoods.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/sale/CashTrade.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/sale/GoodsStyle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/sale/TicketBatch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/sale/TicketCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/sale/TicketGoods.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/sale/TicketTrade.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/sale/TicketTradedGoods.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/sale/pk/TicketCodePK.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/supplier/Pay123Card.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/support/Address.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/support/AgentRequestStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/support/BookRateLevel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/support/LoanRequestStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/support/ManageStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/support/NotifyMessagePK.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/support/RateConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/support/VerificationCodePK.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/entity/support/WithdrawOrderStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/event/MyTradeEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/event/MyWithdrawalEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/event/Notification.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/exception/ArbitrageBindFailedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/exception/ArbitrageBindRequireException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/exception/ArbitrageBindingException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/exception/IllegalVerificationCodeException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/exception/NoContentException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/exception/RequestedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/jdbc/Functions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/jpa/MysqlSessionCustomizer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/AgentCashOrderBalanceFlow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/BalanceFlow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/CashWeixinUserDetail.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/GuideCashOrderBalanceFlow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/InviteUser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/NotifyMessageModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/OrderFlow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/OrderFlows.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/PayMethod.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/TicketInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/VerificationType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/WithdrawalBalanceFlow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/support/AbstractCashOrderBalanceFlow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/support/FlowType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/support/OrderFlowStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/trj/ApplyLoan.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/trj/Financing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/trj/FinancingId.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/trj/Loan.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/trj/LoanContract.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/trj/LoanStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/trj/LoanStatusResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/trj/MobileToken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/trj/MobileTokenToken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/trj/ProjectLoan.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/model/trj/VerifyCodeSentException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/notify/NotifyType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/AgentRequestRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/BankRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/CardRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/CashOrderRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/ChanpayOrderRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/ChanpayWithdrawalOrderRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/LoanRequestRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/LoginTokenRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/MobileRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/NotifyMessageRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/PayToUserOrderRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/PlatformOrderRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/PlatformWithdrawalOrderRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/SubBranchBankRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/SystemStringRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/UserAgentInfoRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/UserOrderRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/UserRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/VerificationCodeRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/WithdrawOrderRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/sale/CashGoodsRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/sale/CashTradeRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/sale/TicketBatchRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/sale/TicketCodeRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/sale/TicketTradeRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/repository/supplier/Pay123CardRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/AgentService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/BankService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/CardService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/CashPublicAccount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/CashStrings.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/ChanpayService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/DataResourceField.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/DataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/InitService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/NotifyService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/OrderService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/PayResourceService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/QRCodeService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/StatisticService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/SystemService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/TourongjiaService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/UserService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/VerificationCodeService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/WealthService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/WeixinService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/AbstractChanpayService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/AbstractVerificationCodeService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/AgentServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/BankServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/CardServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/ChanpayServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/DataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/DatingWeixinUserService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/NotifyServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/OrderServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/PayResourceServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/QRCodeServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/StatisticServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/SystemServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/TRJJsonHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/TourongjiaServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/UserServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/VerificationCodeServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/WealthServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/impl/WeixinServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/sale/MallGoodsService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/sale/MallTradeService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/sale/impl/MallGoodsServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/sale/impl/MallTradeServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/service/sale/impl/TicketStockService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/util/Common.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/java/me/jiangcai/dating/util/WeixinAuthentication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/resources/function.h2.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/resources/function.mysql.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/resources/h2.GoodsStock.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/resources/menus.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/main/resources/welcome.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/share/java/me/jiangcai/dating/DSConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/share/java/me/jiangcai/dating/ServiceBaseTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/share/java/me/jiangcai/dating/TestChanpayService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/share/java/me/jiangcai/dating/TestConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/share/java/me/jiangcai/dating/mock/MockTransactionService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/share/resources/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/share/resources/datasource_local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/share/resources/default_wx.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/share/resources/log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/LongStringTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/Mb4Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/MessageFormatTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/aop/JoinTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/aop/TestLocker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/aop/bean/TestClass.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/entity/UserAgentInfoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/repository/NotifyMessageRepositoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/service/ChanpayServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/service/OrderServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/service/ProductTourongjiaServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/service/QRCodeServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/service/StatisticServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/service/SystemServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/service/TourongjiaServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/service/WealthServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/service/WeixinServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/java/me/jiangcai/dating/service/sale/MallGoodsServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/src/test/resources/todo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/v11.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/csv/CVSWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/loader/DispatcherServletInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/loader/EnvironmentConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/loader/SecurityWebApplicationInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/selection/Report.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/selection/Selection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/selection/SimpleSelection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/MVCConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/WebConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/advice/CommonAdvice.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/advice/TRJNotifyLocker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/AgentController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/GlobalController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/HomeController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/InviteController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/OrderController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/TRJNotifyController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/auth/LoginController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/auth/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/card/CardController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/AbstractLoanManage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/AgentRequestController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/ManageAgentController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/ManageBankController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/ManageController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/ManageLoanController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/ManageOrderController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/ManagePasswordController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/ManagePay123Controller.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/ManageProjectLoanController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/ManageScriptController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/NotifyController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/UserController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/UserController2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/sale/GoodsImagesController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/manage/sale/ManageSaleController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/my/MyController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/my/WithdrawController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/pay/PayController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/pay/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/sale/MySaleController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/sale/SaleController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/sale/SaleOrderController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/support/DataController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/controller/wealth/WealthController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/converter/LocalDateFormatter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/converter/ReportHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/converter/ReportWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/model/TeamMember.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/mvc/ImageResolver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/thymeleaf/CashDialect.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/thymeleaf/Share.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/thymeleaf/baidu/BaiduSpringResourceTemplateResolver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/java/me/jiangcai/dating/web/thymeleaf/baidu/BaiduTemplateResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/resources/baidu.html.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/resources/datasource.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/resources/log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/resources/velocity.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/Cashlist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/Invitelist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/Partnerdata.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/Verify.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/addcard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/addcardlist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/addcredit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/agent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/agreement.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/agreement10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/agreement11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/agreement12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/agreement13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/agreement2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/agreement3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/agreement4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/agreement5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/agreement8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/agreement9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/bancard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/bankcard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/binding.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/carinsurance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/checkcode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/completed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/credit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/creditcard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/creditok.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/css/iconfont.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/css/iconfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/css/iconfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/css/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/css/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/css/manage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/_notes/meiyue.css.mno" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/border-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/border-rightw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/bordered-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/carbg1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/carbg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/carbg3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/help.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/iphone-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/jquery.dialogbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/loanbg1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/loanbg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/loanbg3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/loanbg4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/loanbg5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/loanbg6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/loanbg7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/meiyue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/ok-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/passwrod-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/paybg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/sharebg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/sharebgtwo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/showdown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/succenbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/css/user-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/js/add-card.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/js/jquery.dialogBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/js/jquery.jscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/js/jquery.touchSwipe.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/js/jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/js/share.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/js/yzm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/local.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/dist/local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/explain.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/financialdetails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/finish.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/fragment/auth.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/fragment/cards.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/friends/images/banner-tg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/friends/images/idimg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/friends/images/none.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/friends/images/ratebutton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/friends/images/right-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/friends/images/sharebg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/friends/images/sharebgok.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/friends/inviteFriends.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/friends/myfriends.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/friends/styles/friends.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/handid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/id.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/404-pic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/Imported.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/Loan-con3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/Loan-con4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/Loan-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/Loan-icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/Loan-icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/Path.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/a-img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/add-bank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/addicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/agreementimg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/057786c1ebb39a72fbccc4dba752fa2b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/0adbec2d071d9a565e3bd4ec9d6f314d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/0f7227098cc9d8ccc59e8ecc2d0ae16a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/11e8541ffe4a38f66cbd69800d469958.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/1c201d127d8b338ad28fa51e3eb64fdb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/1eb723f624dcdf94f4adb0930a9cf1bc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/24832459dacb9fa1093ad4d0233b740e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/24a0b093dae6b4635cb0d55b6e74cd9b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/266fed90a1c408d5f52908d6827d4a25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/3340bb2e976edb2d9f6f5dfda1575205.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/3533cb0f0fd954d185d1ac69c71b5e0b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/4483bce3bc73ee5e932ebe9563b852d2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/49675cdce339763af74caefc5213b363.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/4b62e0dd30c2defa60ce385dd20601a1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/4ee186f0a678c5363c20391807750f4c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/4ff49f864c93f99acfa16b38d0ef8f77.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/55c5a9b8b7c88df9d42f51b6629b7319.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/595515b3e3575845a45d4da49e004be0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/5b036395cd18d2923b4478e223c24eaa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/5c47b2b15267ce3fde10b2b9c1b27701.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/5e363991bb898ed5a107dad65fc925f8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/6546f59e3837aadc8f457f8d86eeba37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/71423864518642bb2a82ba35786371ff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/766c633420f0d45e3bd72555290aa6b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/7e7950c9e1453b8a74478d8f03bb385b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/7f505b0d60516550044ad8d677a4f3e0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/813a23d568e992bbfd40a4ef521ad943.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/82e4a4377432cee9057e880348cd70be.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/8d4e6c34aa97bc8204dc5a590d417fac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/995e90090f895d4165805a7ba303d6d7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/a9cfdac475f21ceeda22c3623259d79b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/aaa80eb4f4d965412c82b66d9e024f49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/b6db5fde4ac462a42980b1eea593978e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/bbfa1b792d770c3616890230932e4374.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/bc9a3b6cca9c2f1c7347c45198959c31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/bf384f8945a31749d8e82869ed370be6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/c578270bb000ddc678f92119d117dc08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/cfb703204403d756f3ed76f5a7ab35dc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/cfe2c92614cb843cebbd53399597199a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/d0873bf97727388980fe3a1c42e8dba9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/d715c1323d214383637e744d9951207e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/d777a959d197b1ffaffceec29ddab909.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/d79f71708a33d677467720774630f730.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/deea1124b840309beeea7f3daaa07654.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/e0f88f4dbec781d1ab8402e53f0e25c3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/e6bb0a686bf46b9d93b5c2dd5b38179f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/e6c264ff35cf69614c0eb52832326390.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/ec30eebbea9057a217e4e01fc3c29ac3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/ef62a0e036d16991e16c059c9cc39c7c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/f3896c57327f356fd2ac6650684aa3a7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/fad1b09b412fba86dd33706feccc2e58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/banks/fdb9bbb35e050eeb006ff1be71ac418b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/blackright-r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/blackrightw-r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/border-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-bg-l.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-icon3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-icon4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-icon5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-logo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-logo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-logo4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-logo5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-logo6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-logo7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-logo8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/car-logo9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/card-pic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/codecar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/criicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/ewm-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/ewmblack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/eximg1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/fixed_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/fixed_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/fixed_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/fixed_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/fixed_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/fixed_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/fuyoulogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/hangidbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/hbanbei-banner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/helppay1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/helppay2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/hot02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/hot3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/hoticon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/id-bg-f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/id-bg-l.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/id-bg-z.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/id-car-f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/id-car-z.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/inforbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/iphoneicon-n.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/king-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/king-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/king-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/kong-pic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/kongbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/kuabyesbanner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/kuaijie-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/kuanyeimg5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/kuanyeimg6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/kuanyeimg7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/kuanyes_pic01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/kuanyes_pic02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/lcbig01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/load-pic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/logo-gs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/miicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/money-kong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/my-icon01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/my-icon02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/my-icon03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/my-icon04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/my-icon05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/my-icon06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/mybag-32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/mybanner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/mybanner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/myicon-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/myicon-02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/myicon-03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/myicon-04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/myicon-05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/myicon-06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/myicon-07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/myicon-09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/myicon-14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/myicon-19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/myicon-33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/myyb-42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/ok-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/order-kong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/pannerbanner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/parderimg1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/parderimg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/passicon-n.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/paybg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/picc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/pwd_keyboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/question-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/question-icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/questionicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/registericon1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/right-w.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/safeimg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/sharebg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/sharebgok.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/sunbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/super-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/temp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/temp2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/temp2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/txgzbtn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/user-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/we-iconlogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/weixin-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/wrongicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/xieyibg1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/xieyibg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/xieyibg3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/xieyibg5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/yqmicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/yzmicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/images/zhifubao-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/itemloan.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/itempersonalup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/agent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/loan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/loanSubmit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/manage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/manage/agent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/manage/agentRequest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/manage/bank.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/manage/goods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/manage/loanRequest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/manage/projectLoanRequest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/manage/user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/passwordBox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/pay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/projectLoanAgreement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/subBranches.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/js/team.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/kinglist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/kuanyes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/loan.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/loanmain.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/loansuccess.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/logout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/agent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/agentRequest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/bank.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/index_works.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/loanRequest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/notify.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/order.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/password.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/pay123.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/projectLoanRequest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/projectLoanRequestReport.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/sale/goods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/script.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/manage/userOrders.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/agent.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/agentRequest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/all_live.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/branches.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/data1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/data2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/false.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/goods.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/image_upload.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/images.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/loanList.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/loanRequest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/projectLoanRequest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/projectLoanRequestNextTerm1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/projectLoanRequestNextTerm2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/projectLoanRequestNextTerm3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/provinces.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/qr.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/true.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mock/users.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/my.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/myTeamData.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/mydata.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/myintroduce.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/myinvitation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/myorder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/myteam.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/note.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/now.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/order.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/orderdetails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/password.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/payMyComplete.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/payOtherComplete.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/paycode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/paycode123.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/payewm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/payment-ts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/payment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/personal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/personalmore.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/personalok.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/personalup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/play.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/receivables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/repaymentcard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/safetycode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/Flow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/Oilcard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/Oilcardlist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/Oilplayfinish.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/addaddress.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/address.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/carddetails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/cardpay-ts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/cardplay.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/cardplayclose.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/cardplayfinish.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/cardplayto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/details.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/editadd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/fragment/foot.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/addadreeicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/blackright-r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/close-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/coubg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/couponicon01" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/couponicon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/gouicon1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/huan-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/huan-icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/iconfont-bianji.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/iconfont-lajitong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/mapicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/moneyicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/moneyiconb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/my-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/my-icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/noorderbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/ordericon01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/ordericon02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/ordericon03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/payicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/payicon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/payicon3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/reduce.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/righticon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/sale-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/sale-icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/temp2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/white-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/white-icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/whosle-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/whosle-icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/wrongicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/images/wrongicon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/js/organictabs.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/js/payfor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/my.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/mycoupons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/mycouponsclose.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/myorder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/myorder_data.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/pay-ts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/pay-ts2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/phonefinish.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/phonerecharge.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/play.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/playclose.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/playfinish.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/playgood.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/playshop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/playto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/playtwo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/saleindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/styles/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/sale/styles/sale.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/subscribe_required.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/uploadcar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/uploadphoto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/wealth.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/main/webapp/wealthlist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/AsManage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/BankNames.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/LoginWebTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/ManageWebTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/WebTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/XML2Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/csv/CVSWriterTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/issue/CreateWithdrawalFailed.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/loader/DispatcherServletInitializerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/mall/MallEntryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/AbstractPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/AgentRequestPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/BindingCardPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/BindingMobilePage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/CodePage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/ExplainPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/FinancialListPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/FinancingPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/InviteListPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/LoanAmountPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/LoanCompletedPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/LoanHandIDPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/LoanIDPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/LoanPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/LoanSubmitPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/LogoutPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/ManageNotifyPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/ManageOrderPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/ManageOrderResultPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/ManagePasswordPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/MyBankPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/MyDataPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/MyInvitationPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/MyPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/MyTeamPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/OrderDetailPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/OrderPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/PCLoginPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/PartnerDataPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/PasswordLoginPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/PayCompletedPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/PayToMePage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/PayToPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/ProjectLoanAgreementPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/ProjectSuccessPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/ProjectSuccessVerifyPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/ShowOrderPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/StartOrderPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/WithdrawListPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/WithdrawPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/WithdrawResultPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/sale/ManageGoodsPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/sale/MySalePage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/sale/OrderListPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/sale/SaleIndexPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/sale/TicketGoodsDetailPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/sale/TicketPayPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/sale/TicketPaySuccessPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/page/sale/TicketTradeSuccessPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/test/QRController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/test/QuickLoginController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/test/TestReportHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/AgentControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/AgentRequestControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/AgentTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/ArbitrageChannelTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/GlobalControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/HomeControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/InviteControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/ManageControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/OrderControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/RelationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/TRJNotifyControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/UserControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/auth/LoginControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/card/CardControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/manage/ManageAgentControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/manage/ManageBankControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/manage/ManageLoanControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/manage/ManageOrderControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/manage/ManagePay123ControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/manage/ManageProjectLoanControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/manage/ManageScriptControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/manage/NotifyControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/manage/sale/ManageSaleControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/my/MyControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/my/WithdrawControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/pay/PayControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/sale/MySaleControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/sale/SaleControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/me/jiangcai/dating/web/controller/wealth/WealthControllerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/resources/TicketBatchSAndF.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/resources/pay123.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/resources/thumbnail.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/saleindex.html" afterPath="$PROJECT_DIR$/sale/saleindex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale/styles/sale.css" afterPath="$PROJECT_DIR$/sale/styles/sale.css" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,22 +887,155 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="myorder.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sale/myorder.html">
+      <file leaf-file-name="details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mark-pc/details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="53" column="87" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="87" />
+              <folding>
+                <element signature="e#5772#5778#0" expanded="true" />
+                <element signature="e#5778#5784#0" expanded="true" />
+                <element signature="e#5784#5790#0" expanded="true" />
+                <element signature="e#5790#5796#0" expanded="true" />
+                <element signature="e#5843#5849#0" expanded="true" />
+                <element signature="e#5849#5855#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payfor.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mark-pc/js/payfor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saleindex.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sale/saleindex.html">
+      <file leaf-file-name="b1.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mark-pc/images/b1.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forget.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mark-pc/forget.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="795">
+              <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+              <folding>
+                <element signature="e#1951#1957#0" expanded="true" />
+                <element signature="e#1957#1963#0" expanded="true" />
+                <element signature="e#1963#1969#0" expanded="true" />
+                <element signature="e#1969#1975#0" expanded="true" />
+                <element signature="e#2022#2028#0" expanded="true" />
+                <element signature="e#2028#2034#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hot.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mark-pc/hot.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="e#3001#3007#0" expanded="true" />
+                <element signature="e#3007#3013#0" expanded="true" />
+                <element signature="e#3013#3019#0" expanded="true" />
+                <element signature="e#3019#3025#0" expanded="true" />
+                <element signature="e#3072#3078#0" expanded="true" />
+                <element signature="e#3078#3084#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mark-pc/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+              <folding>
+                <element signature="e#2894#2900#0" expanded="true" />
+                <element signature="e#2900#2906#0" expanded="true" />
+                <element signature="e#2906#2912#0" expanded="true" />
+                <element signature="e#2912#2918#0" expanded="true" />
+                <element signature="e#2965#2971#0" expanded="true" />
+                <element signature="e#2971#2977#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mark-pc/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#10223#10229#0" expanded="true" />
+                <element signature="e#10229#10235#0" expanded="true" />
+                <element signature="e#10235#10241#0" expanded="true" />
+                <element signature="e#10241#10247#0" expanded="true" />
+                <element signature="e#10294#10300#0" expanded="true" />
+                <element signature="e#10300#10306#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nz.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mark-pc/nz.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+              <folding>
+                <element signature="e#7988#7994#0" expanded="true" />
+                <element signature="e#7994#8000#0" expanded="true" />
+                <element signature="e#8000#8006#0" expanded="true" />
+                <element signature="e#8006#8012#0" expanded="true" />
+                <element signature="e#8059#8065#0" expanded="true" />
+                <element signature="e#8065#8071#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mark-pc/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+              <folding>
+                <element signature="e#3095#3101#0" expanded="true" />
+                <element signature="e#3101#3107#0" expanded="true" />
+                <element signature="e#3107#3113#0" expanded="true" />
+                <element signature="e#3113#3119#0" expanded="true" />
+                <element signature="e#3166#3172#0" expanded="true" />
+                <element signature="e#3172#3178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sale.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mark-pc/sale.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="13" selection-start-line="13" selection-start-column="8" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="e#3004#3010#0" expanded="true" />
+                <element signature="e#3010#3016#0" expanded="true" />
+                <element signature="e#3016#3022#0" expanded="true" />
+                <element signature="e#3022#3028#0" expanded="true" />
+                <element signature="e#3075#3081#0" expanded="true" />
+                <element signature="e#3081#3087#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +1045,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -114,6 +1075,22 @@
         <option value="$PROJECT_DIR$/sale/details.html" />
         <option value="$PROJECT_DIR$/sale/styles/sale.css" />
         <option value="$PROJECT_DIR$/sale/saleindex.html" />
+        <option value="$PROJECT_DIR$/mark-pc/js/bannerimg.js" />
+        <option value="$PROJECT_DIR$/mark-pc/js/pageSwitch.min.js" />
+        <option value="$PROJECT_DIR$/mark-pc/styles/pageSwitch.min.css" />
+        <option value="$PROJECT_DIR$/mark-pc/js/pic_tab.js" />
+        <option value="$PROJECT_DIR$/mark-pc/js/messages_cn.js" />
+        <option value="$PROJECT_DIR$/mark-pc/register.html" />
+        <option value="$PROJECT_DIR$/mark-pc/js/vali.js" />
+        <option value="$PROJECT_DIR$/mark-pc/index.html" />
+        <option value="$PROJECT_DIR$/mark-pc/styles/styles.css" />
+        <option value="$PROJECT_DIR$/mark-pc/forget.html" />
+        <option value="$PROJECT_DIR$/mark-pc/login.html" />
+        <option value="$PROJECT_DIR$/mark-pc/hot.html" />
+        <option value="$PROJECT_DIR$/mark-pc/sale.html" />
+        <option value="$PROJECT_DIR$/mark-pc/nz.html" />
+        <option value="$PROJECT_DIR$/mark-pc/details.html" />
+        <option value="$PROJECT_DIR$/mark-pc/js/payfor.js" />
       </list>
     </option>
   </component>
@@ -171,7 +1148,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sale" />
+              <option name="myItemId" value="mark-pc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -185,7 +1162,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sale" />
+              <option name="myItemId" value="mark-pc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -203,7 +1180,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sale" />
+              <option name="myItemId" value="mark-pc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -222,9 +1199,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mark-pc" />
       <recent name="$PROJECT_DIR$/sale" />
     </key>
   </component>
@@ -312,32 +1291,40 @@
       <workItem from="1483172250912" duration="91000" />
       <workItem from="1483172359396" duration="294000" />
       <workItem from="1487835854363" duration="74000" />
+      <workItem from="1488424796084" duration="13161000" />
+      <workItem from="1488550178898" duration="204000" />
+      <workItem from="1488591719003" duration="6069000" />
+      <workItem from="1488766479745" duration="11699000" />
+      <workItem from="1488852731237" duration="18052000" />
+      <workItem from="1488891286890" duration="8495000" />
+      <workItem from="1488938352349" duration="18815000" />
+      <workItem from="1489025201132" duration="1525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52851000" />
+    <option name="totallyTimeSpent" value="130871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25694445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25694445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -352,200 +1339,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sale/myorder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/saleindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/playtwo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/play.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/saleindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/playtwo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/play.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/saleindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/playtwo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/play.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/addaddress.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/js/payfor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="208" column="18" selection-start-line="208" selection-start-column="18" selection-end-line="208" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/styles/sale.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5040">
-          <caret line="336" column="12" selection-start-line="336" selection-start-column="12" selection-end-line="336" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/pay-ts2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/address.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" column="7" selection-start-line="83" selection-start-column="3" selection-end-line="91" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/saleindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/playtwo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/play.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/addaddress.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/js/payfor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="208" column="18" selection-start-line="208" selection-start-column="18" selection-end-line="208" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/styles/sale.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5040">
-          <caret line="336" column="12" selection-start-line="336" selection-start-column="12" selection-end-line="336" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/pay-ts2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/address.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" column="7" selection-start-line="83" selection-start-column="3" selection-end-line="91" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/addaddress.html" />
+    <entry file="file://$PROJECT_DIR$/sale/js/payfor.js" />
+    <entry file="file://$PROJECT_DIR$/sale/styles/sale.css" />
+    <entry file="file://$PROJECT_DIR$/sale/pay-ts2.html" />
+    <entry file="file://$PROJECT_DIR$/sale/address.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -553,18 +1357,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sale/images/white-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/js/payfor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="208" column="18" selection-start-line="208" selection-start-column="18" selection-end-line="208" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/images/white-icon.png" />
+    <entry file="file://$PROJECT_DIR$/sale/js/payfor.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/aria.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -572,106 +1366,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sale/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/sectional.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/js/bootstrap.min.js" />
     <entry file="file://$PROJECT_DIR$/sale/kong.html" />
-    <entry file="file://$PROJECT_DIR$/sale/js/organictabs.jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/play.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/playtwo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/playto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/playfinish.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/playshop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/playgood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/addaddress.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/address.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/playclose.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sale/styles/sale.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sale/js/organictabs.jquery.js" />
+    <entry file="file://$PROJECT_DIR$/sale/play.html" />
+    <entry file="file://$PROJECT_DIR$/sale/playtwo.html" />
+    <entry file="file://$PROJECT_DIR$/sale/playto.html" />
+    <entry file="file://$PROJECT_DIR$/sale/playfinish.html" />
+    <entry file="file://$PROJECT_DIR$/sale/playshop.html" />
+    <entry file="file://$PROJECT_DIR$/sale/playgood.html" />
+    <entry file="file://$PROJECT_DIR$/sale/addaddress.html" />
+    <entry file="file://$PROJECT_DIR$/sale/address.html" />
+    <entry file="file://$PROJECT_DIR$/sale/playclose.html" />
+    <entry file="file://$PROJECT_DIR$/sale/details.html" />
+    <entry file="file://$PROJECT_DIR$/sale/styles/sale.css" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="691">
@@ -680,32 +1388,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sale/carddetails.html">
+    <entry file="file://$PROJECT_DIR$/sale/carddetails.html" />
+    <entry file="file://$PROJECT_DIR$/sale/pay-ts2.html" />
+    <entry file="file://$PROJECT_DIR$/sale/myorder.html" />
+    <entry file="file://$PROJECT_DIR$/sale/saleindex.html" />
+    <entry file="file://$PROJECT_DIR$/mark-pc/img/left_right.png" />
+    <entry file="file://$PROJECT_DIR$/mark-pc/img/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/mark-pc/js/bannerimg.js" />
+    <entry file="file://$PROJECT_DIR$/mark-pc/js/pageSwitch.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+        <state relative-caret-position="1470">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sale/pay-ts2.html">
+    <entry file="file://$PROJECT_DIR$/mark-pc/styles/pageSwitch.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="375">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sale/myorder.html">
+    <entry file="file://$PROJECT_DIR$/mark-pc/images/nz.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/js/pic_tab.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sale/saleindex.html">
+    <entry file="file://$PROJECT_DIR$/mark-pc/images/paybg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/js/messages_cn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/js/vali.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7830">
+          <caret line="522" column="15" selection-start-line="522" selection-start-column="15" selection-end-line="522" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/nvzhang.html" />
+    <entry file="file://$PROJECT_DIR$/mark-pc/forget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+          <folding>
+            <element signature="e#1951#1957#0" expanded="true" />
+            <element signature="e#1957#1963#0" expanded="true" />
+            <element signature="e#1963#1969#0" expanded="true" />
+            <element signature="e#1969#1975#0" expanded="true" />
+            <element signature="e#2022#2028#0" expanded="true" />
+            <element signature="e#2028#2034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/hot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#3001#3007#0" expanded="true" />
+            <element signature="e#3007#3013#0" expanded="true" />
+            <element signature="e#3013#3019#0" expanded="true" />
+            <element signature="e#3019#3025#0" expanded="true" />
+            <element signature="e#3072#3078#0" expanded="true" />
+            <element signature="e#3078#3084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+          <folding>
+            <element signature="e#3095#3101#0" expanded="true" />
+            <element signature="e#3101#3107#0" expanded="true" />
+            <element signature="e#3107#3113#0" expanded="true" />
+            <element signature="e#3113#3119#0" expanded="true" />
+            <element signature="e#3166#3172#0" expanded="true" />
+            <element signature="e#3172#3178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/sale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" selection-start-line="13" selection-start-column="8" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#3004#3010#0" expanded="true" />
+            <element signature="e#3010#3016#0" expanded="true" />
+            <element signature="e#3016#3022#0" expanded="true" />
+            <element signature="e#3022#3028#0" expanded="true" />
+            <element signature="e#3075#3081#0" expanded="true" />
+            <element signature="e#3081#3087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/nz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="e#7988#7994#0" expanded="true" />
+            <element signature="e#7994#8000#0" expanded="true" />
+            <element signature="e#8000#8006#0" expanded="true" />
+            <element signature="e#8006#8012#0" expanded="true" />
+            <element signature="e#8059#8065#0" expanded="true" />
+            <element signature="e#8065#8071#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+          <folding>
+            <element signature="e#2894#2900#0" expanded="true" />
+            <element signature="e#2900#2906#0" expanded="true" />
+            <element signature="e#2906#2912#0" expanded="true" />
+            <element signature="e#2912#2918#0" expanded="true" />
+            <element signature="e#2965#2971#0" expanded="true" />
+            <element signature="e#2971#2977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/images/b1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#10223#10229#0" expanded="true" />
+            <element signature="e#10229#10235#0" expanded="true" />
+            <element signature="e#10235#10241#0" expanded="true" />
+            <element signature="e#10241#10247#0" expanded="true" />
+            <element signature="e#10294#10300#0" expanded="true" />
+            <element signature="e#10300#10306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="53" column="87" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="87" />
+          <folding>
+            <element signature="e#5772#5778#0" expanded="true" />
+            <element signature="e#5778#5784#0" expanded="true" />
+            <element signature="e#5784#5790#0" expanded="true" />
+            <element signature="e#5790#5796#0" expanded="true" />
+            <element signature="e#5843#5849#0" expanded="true" />
+            <element signature="e#5849#5855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/js/payfor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
