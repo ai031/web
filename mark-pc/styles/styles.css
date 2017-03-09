@@ -1185,13 +1185,16 @@ button, input, select, textarea {
     height: 40px;
 }
 .show-t .pay{ padding:0 30px; background: #fff; overflow: hidden}
+
+.show-t ul { float: left; margin:10px 30px 30px 30px }
+.show-t ul h2{ font-size: 16px; color: #333 ; line-height: 40px; text-align: center }
 .show-t .wx {
     padding: 15px;
     display: block;
     overflow: hidden;
     float: left;
     width: 200px;
-    height: 205px;
+    height: 218px;
     border: 15px solid ;
     -moz-border-top-colors:#f0b42c  #db9b17;
     -moz-border-right-colors:#f0b42c  #db9b17;
@@ -1200,13 +1203,27 @@ button, input, select, textarea {
     background: #fff;
 
 }
-.show-t ul { float: left; margin:10px 30px 30px 30px }
-.show-t ul h2{ font-size: 16px; color: #333 ; line-height: 40px; text-align: center }
-
 .show-t .wx li{ background: #fff; width:180px; height:180px; }
-.show-t .wx h3{ color: #db9b17}
-.show-t .cl{ padding:30px ; overflow: hidden }
-.show-t .cl img{ width: 320px; height: 72px; }
+.show-t .wx h3{ text-align:center;color: #db9b17;font-size: 14px; margin: 0;padding-top: 2px }
+.show-t .zfb {
+    padding: 15px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 200px;
+    height: 218px;
+    border: 15px solid ;
+    -moz-border-top-colors:#73ad83  #448653;
+    -moz-border-right-colors:#73ad83  #448653;
+    -moz-border-bottom-colors:#73ad83  #448653;
+    -moz-border-left-colors:#73ad83  #448653;
+    background: #fff;
+
+}
+.show-t .zfb li{ background: #fff; width:180px; height:180px; }
+.show-t .zfb h3{ text-align:center; color: #448653; font-size: 14px;margin: 0; padding-top: 2px}
+.show-t .cl{ padding:33px ; overflow: hidden }
+.show-t .cl img{ width: 330px; height: 75px; }
 .footer {
     background: #eee;
     border-top: 1px solid #dfdfdf;
