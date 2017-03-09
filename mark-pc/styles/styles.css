@@ -227,6 +227,7 @@ button, input, select, textarea {
     width: 80px;
     line-height: 28px;
 }
+
 .login-center .login_border {
     margin-bottom: 30px;
     float: left;
@@ -244,6 +245,7 @@ button, input, select, textarea {
 
     margin-right: 5px;
 }
+
 .login-center .box_border {
     margin-bottom: 30px;
     float: left;
@@ -319,17 +321,20 @@ button, input, select, textarea {
     margin-left: 10px;
     width: 110px;
 }
+
 .login-center .forget-n {
     width: 540px;
     overflow: hidden;
     margin: 0 auto;
 }
+
 .login-center .forget-n ul {
 }
 
 .login-center .forget-n li {
     overflow: hidden
 }
+
 .login-center .forget-n .sub {
     background: #F65150;
     color: #fff;
@@ -339,8 +344,9 @@ button, input, select, textarea {
     font-size: 16px;
     height: 40px;
     width: 255px;
-    margin-top:30px;
+    margin-top: 30px;
 }
+
 .login-center .forget {
     width: 180px;
     overflow: hidden;
@@ -381,6 +387,7 @@ button, input, select, textarea {
 .banner, .sections {
     position: relative;
 }
+
 .section {
     background-color: #000;
     background-size: cover;
@@ -411,7 +418,7 @@ button, input, select, textarea {
     overflow: hidden;
     padding: 25px 0 0 25px;
     margin-bottom: 20px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .sale ul {
@@ -541,7 +548,11 @@ button, input, select, textarea {
     font-size: 14px;
     text-decoration: line-through;
 }
-.goodlist .pic li a{ text-decoration: none}
+
+.goodlist .pic li a {
+    text-decoration: none
+}
+
 .newpic {
     margin: 50px 0 30px 0
 }
@@ -909,7 +920,11 @@ button, input, select, textarea {
 .J-other {
     padding: 30px 0;
 }
-.J-other a{ text-decoration: none}
+
+.J-other a {
+    text-decoration: none
+}
+
 .J-other dl {
     overflow: hidden;
 }
@@ -949,6 +964,7 @@ button, input, select, textarea {
     color: #999;
     line-height: 60px
 }
+
 .J-other dd.cm a:hover {
     border: 1px solid #F65150;
 }
@@ -970,7 +986,11 @@ button, input, select, textarea {
     width: 36px;
     height: 32px;
 }
-.J-other .number .add{ margin-right: 15px;}
+
+.J-other .number .add {
+    margin-right: 15px;
+}
+
 .J-other .buy {
     float: left;
     margin-top: 50px
@@ -986,19 +1006,84 @@ button, input, select, textarea {
     background: #F65150;
     font-size: 22px;
 }
-.J-other .f16{ color: #F65150;font-size: 18px; margin: -14px 0 0 0; }
-.details{ background: #fff; text-align: center;}
-.details .navtab{ margin-bottom: 30px; background: #f3f3f3;line-height: 46px;height: 46px; border-top: 1px solid #dfdfdf;  }
-.details .navtab ul{line-height: 46px;}
-.details .navtab li{ border-left: 1px solid #dfdfdf; font-size: 16px; text-align: center; width:160px;float: left;}
-.details .curr{ background: #fff; border-bottom: 2px solid #F65150;height: 45px;  }
-.total{ color: #F65150; margin-left: 10px  }
-.navlist{ background: #fff; line-height: 52px; margin-bottom:30px}
-.navlist a{ display: block; float: left; padding: 0 20px; color: #666;}
-.hotgoods{}
-.hotgoods ul{ zoom:1;overflow:hidden; margin-right: -30px}
-.hotgoods li{ overflow: hidden; margin:0 30px 30px 0;  background: #fff; float: left; position: relative}
-.hotgoods li img{ width:580px; height: 278px;}
+
+.J-other .f16 {
+    color: #F65150;
+    font-size: 18px;
+    margin: -14px 0 0 0;
+}
+
+.details {
+    background: #fff;
+    text-align: center;
+}
+
+.details .navtab {
+    margin-bottom: 30px;
+    background: #f3f3f3;
+    line-height: 46px;
+    height: 46px;
+    border-top: 1px solid #dfdfdf;
+}
+
+.details .navtab ul {
+    line-height: 46px;
+}
+
+.details .navtab li {
+    border-left: 1px solid #dfdfdf;
+    font-size: 16px;
+    text-align: center;
+    width: 160px;
+    float: left;
+}
+
+.details .curr {
+    background: #fff;
+    border-bottom: 2px solid #F65150;
+    height: 45px;
+}
+
+.total {
+    color: #F65150;
+    margin-left: 10px
+}
+
+.navlist {
+    background: #fff;
+    line-height: 52px;
+    margin-bottom: 30px
+}
+
+.navlist a {
+    display: block;
+    float: left;
+    padding: 0 20px;
+    color: #666;
+}
+
+.hotgoods {
+}
+
+.hotgoods ul {
+    zoom: 1;
+    overflow: hidden;
+    margin-right: -30px
+}
+
+.hotgoods li {
+    overflow: hidden;
+    margin: 0 30px 30px 0;
+    background: #fff;
+    float: left;
+    position: relative
+}
+
+.hotgoods li img {
+    width: 580px;
+    height: 278px;
+}
+
 .hotgoods li .f40 {
     padding-left: 13px;
     font-size: 40px;
@@ -1014,7 +1099,12 @@ button, input, select, textarea {
     font-size: 14px;
     padding: 10px 0 0 7px;
 }
-.hotgoods li .f16{ margin-left: 10px; font-size: 14px; }
+
+.hotgoods li .f16 {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
 .hotgoods li .f12 {
     color: #999;
     font-size: 12px;
@@ -1033,21 +1123,126 @@ button, input, select, textarea {
     font-size: 14px;
     text-decoration: line-through;
 }
-.hot-i{ position: absolute; top:0; left: 0;}
-.hot-i img{ width:56px !important; height:56px !important}
-.hot-t{ position: absolute; top:0; left: 0;}
-.hot-t img{ width:56px !important; height:56px !important}
-.wap-show{ background:url(../images/showbg.png) ;width:100%;height:100%;background:rgba(0,0,0,0.5);position:fixed;z-index:100;display:none;}
 
-.show-t{ margin:0 auto;background:#fff;position:fixed;top:40%;left:50%;margin-left:-23%;margin-top:-166px;z-index:111;display:none; }
-.show-t h1{ background:#f6f6f6; padding-left: 10px; height:40px;font-size: 16px; line-height:40px; margin: 0}
-.show-t .close{display:block; float: right; font-size: 0; background:url(../images/chacha3.png) no-repeat; width:40px; height:40px;}
-.show-t img{width:600px; height:471px}
-.footer{ background:#eee; border-top:1px solid #dfdfdf; padding:15px 0;  color:#999; overflow:hidden}
-.footer img{ float:left; margin:0 20px 0 0}
-.footer .txt{ color:#999; font-size:18px;  float:left; line-height:50px}
-.footer .gat{font-size:14px; margin-left:10px; line-height:50px}
-.footer .gat img{ margin:16px -20px 0 20px; width:20px; height:20px}
-.m-bottom{ margin-top:30px}
-.error{
-    color:red;}
+.hot-i {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hot-i img {
+    width: 56px !important;
+    height: 56px !important
+}
+
+.hot-t {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hot-t img {
+    width: 56px !important;
+    height: 56px !important
+}
+
+.wap-show {
+    background: url(../images/showbg.png);
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+
+.show-t {
+    margin: 0 auto;
+    background: #fff;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    margin-left: -23%;
+    margin-top: -166px;
+    z-index: 111;
+    display: none;
+}
+
+.show-t h1 {
+    background: #f6f6f6;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+}
+.show-t .close {
+    display: block;
+    float: right;
+    font-size: 0;
+    background: url(../images/chacha3.png) no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.show-t .pay{ padding:0 30px; background: #fff; overflow: hidden}
+.show-t .wx {
+    padding: 15px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 200px;
+    height: 205px;
+    border: 15px solid ;
+    -moz-border-top-colors:#f0b42c  #db9b17;
+    -moz-border-right-colors:#f0b42c  #db9b17;
+    -moz-border-bottom-colors:#f0b42c  #db9b17;
+    -moz-border-left-colors:#f0b42c  #db9b17;
+    background: #fff;
+
+}
+.show-t ul { float: left; margin:10px 30px 30px 30px }
+.show-t ul h2{ font-size: 16px; color: #333 ; line-height: 40px; text-align: center }
+
+.show-t .wx li{ background: #fff; width:180px; height:180px; }
+.show-t .wx h3{ color: #db9b17}
+.show-t .cl{ padding:30px ; overflow: hidden }
+.show-t .cl img{ width: 320px; height: 72px; }
+.footer {
+    background: #eee;
+    border-top: 1px solid #dfdfdf;
+    padding: 15px 0;
+    color: #999;
+    overflow: hidden
+}
+
+.footer img {
+    float: left;
+    margin: 0 20px 0 0
+}
+
+.footer .txt {
+    color: #999;
+    font-size: 18px;
+    float: left;
+    line-height: 50px
+}
+
+.footer .gat {
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 50px
+}
+
+.footer .gat img {
+    margin: 16px -20px 0 20px;
+    width: 20px;
+    height: 20px
+}
+
+.m-bottom {
+    margin-top: 30px
+}
+
+.error {
+    color: red;
+}
