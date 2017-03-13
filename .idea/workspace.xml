@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbed63ea-2552-4b4e-b4dd-71fd695a8da5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mark-pc/images/banner1.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mark-pc/images/1.jpg" afterPath="$PROJECT_DIR$/mark-pc/images/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mark-pc/images/2.jpg" afterPath="$PROJECT_DIR$/mark-pc/images/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mark-pc/images/3.jpg" afterPath="$PROJECT_DIR$/mark-pc/images/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mark-pc/images/4.jpg" afterPath="$PROJECT_DIR$/mark-pc/images/4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mark-pc/styles/styles.css" afterPath="$PROJECT_DIR$/mark-pc/styles/styles.css" />
-    </list>
+    <list default="true" id="dbed63ea-2552-4b4e-b4dd-71fd695a8da5" name="Default" comment="" />
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -68,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mark-pc/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="285">
+              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
               <folding>
                 <element signature="e#10223#10229#0" expanded="true" />
                 <element signature="e#10229#10235#0" expanded="true" />
@@ -122,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.jpg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mark-pc/images/4.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -408,12 +400,12 @@
       <workItem from="1489033498546" duration="234000" />
       <workItem from="1489044196961" duration="1236000" />
       <workItem from="1489118500353" duration="827000" />
-      <workItem from="1489372248824" duration="5255000" />
+      <workItem from="1489372248824" duration="5376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140387000" />
+    <option name="totallyTimeSpent" value="140508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -670,21 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mark-pc/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-          <folding>
-            <element signature="e#10223#10229#0" expanded="true" />
-            <element signature="e#10229#10235#0" expanded="true" />
-            <element signature="e#10235#10241#0" expanded="true" />
-            <element signature="e#10241#10247#0" expanded="true" />
-            <element signature="e#10294#10300#0" expanded="true" />
-            <element signature="e#10300#10306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mark-pc/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -696,6 +673,21 @@
     <entry file="file://$PROJECT_DIR$/mark-pc/images/4.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="e#10223#10229#0" expanded="true" />
+            <element signature="e#10229#10235#0" expanded="true" />
+            <element signature="e#10235#10241#0" expanded="true" />
+            <element signature="e#10241#10247#0" expanded="true" />
+            <element signature="e#10294#10300#0" expanded="true" />
+            <element signature="e#10300#10306#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
