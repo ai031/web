@@ -1167,6 +1167,7 @@ button, input, select, textarea {
     margin-top: -166px;
     z-index: 111;
     display: none;
+    width: 580px;
 }
 
 .show-t h1 {
@@ -1196,11 +1197,7 @@ button, input, select, textarea {
     float: left;
     width: 200px;
     height: 218px;
-    border: 15px solid ;
-    -moz-border-top-colors:#f0b42c  #db9b17;
-    -moz-border-right-colors:#f0b42c  #db9b17;
-    -moz-border-bottom-colors:#f0b42c  #db9b17;
-    -moz-border-left-colors:#f0b42c  #db9b17;
+    border: 15px solid #f0b42c;
     background: #fff;
 
 }
@@ -1213,11 +1210,7 @@ button, input, select, textarea {
     float: left;
     width: 200px;
     height: 218px;
-    border: 15px solid ;
-    -moz-border-top-colors:#73ad83  #448653;
-    -moz-border-right-colors:#73ad83  #448653;
-    -moz-border-bottom-colors:#73ad83  #448653;
-    -moz-border-left-colors:#73ad83  #448653;
+    border: 15px solid #73ad83;
     background: #fff;
 
 }
