@@ -1,7 +1,7 @@
 //加减效果
 var num =100;
 $(function(){
-    $(".add").click(function(){
+    $(".addc").click(function(){
         var t=$(this).parent().find('input[class*=text_box]');
         t.val(parseInt(t.val())+1)
         setTotal();
