@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbed63ea-2552-4b4e-b4dd-71fd695a8da5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mark-pc/details.html" afterPath="$PROJECT_DIR$/mark-pc/details.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mark-pc/js/payfor.js" afterPath="$PROJECT_DIR$/mark-pc/js/payfor.js" />
     </list>
@@ -30,15 +29,15 @@
       <file leaf-file-name="details.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mark-pc/details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="190" column="19" selection-start-line="190" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="111" column="39" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
               <folding>
-                <element signature="e#5775#5781#0" expanded="true" />
-                <element signature="e#5781#5787#0" expanded="true" />
-                <element signature="e#5787#5793#0" expanded="true" />
-                <element signature="e#5793#5799#0" expanded="true" />
-                <element signature="e#5846#5852#0" expanded="true" />
-                <element signature="e#5852#5858#0" expanded="true" />
+                <element signature="e#5774#5780#0" expanded="true" />
+                <element signature="e#5780#5786#0" expanded="true" />
+                <element signature="e#5786#5792#0" expanded="true" />
+                <element signature="e#5792#5798#0" expanded="true" />
+                <element signature="e#5845#5851#0" expanded="true" />
+                <element signature="e#5851#5857#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +56,8 @@
       <file leaf-file-name="payfor.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mark-pc/js/payfor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="45">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -191,8 +190,8 @@
         <option value="$PROJECT_DIR$/mark-pc/sale.html" />
         <option value="$PROJECT_DIR$/mark-pc/nz.html" />
         <option value="$PROJECT_DIR$/mark-pc/styles/styles.css" />
-        <option value="$PROJECT_DIR$/mark-pc/details.html" />
         <option value="$PROJECT_DIR$/mark-pc/js/payfor.js" />
+        <option value="$PROJECT_DIR$/mark-pc/details.html" />
       </list>
     </option>
   </component>
@@ -405,12 +404,12 @@
       <workItem from="1489044196961" duration="1236000" />
       <workItem from="1489118500353" duration="827000" />
       <workItem from="1489372248824" duration="6572000" />
-      <workItem from="1489589597859" duration="378000" />
+      <workItem from="1489589597859" duration="501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142082000" />
+    <option name="totallyTimeSpent" value="142205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -658,23 +657,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mark-pc/js/payfor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mark-pc/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="190" column="19" selection-start-line="190" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="111" column="39" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
           <folding>
-            <element signature="e#5775#5781#0" expanded="true" />
-            <element signature="e#5781#5787#0" expanded="true" />
-            <element signature="e#5787#5793#0" expanded="true" />
-            <element signature="e#5793#5799#0" expanded="true" />
-            <element signature="e#5846#5852#0" expanded="true" />
-            <element signature="e#5852#5858#0" expanded="true" />
+            <element signature="e#5774#5780#0" expanded="true" />
+            <element signature="e#5780#5786#0" expanded="true" />
+            <element signature="e#5786#5792#0" expanded="true" />
+            <element signature="e#5792#5798#0" expanded="true" />
+            <element signature="e#5845#5851#0" expanded="true" />
+            <element signature="e#5851#5857#0" expanded="true" />
           </folding>
         </state>
       </provider>
