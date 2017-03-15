@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbed63ea-2552-4b4e-b4dd-71fd695a8da5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mark-pc/styles/styles.css" afterPath="$PROJECT_DIR$/mark-pc/styles/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mark-pc/register.html" afterPath="$PROJECT_DIR$/mark-pc/register.html" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +65,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mark-pc/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="735">
               <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
               <folding>
                 <element signature="e#10223#10229#0" expanded="true" />
@@ -76,6 +75,16 @@
                 <element signature="e#10294#10300#0" expanded="true" />
                 <element signature="e#10300#10306#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mark-pc/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,7 +116,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mark-pc/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="373">
@@ -181,7 +190,6 @@
         <option value="$PROJECT_DIR$/mark-pc/styles/pageSwitch.min.css" />
         <option value="$PROJECT_DIR$/mark-pc/js/pic_tab.js" />
         <option value="$PROJECT_DIR$/mark-pc/js/messages_cn.js" />
-        <option value="$PROJECT_DIR$/mark-pc/register.html" />
         <option value="$PROJECT_DIR$/mark-pc/js/vali.js" />
         <option value="$PROJECT_DIR$/mark-pc/index.html" />
         <option value="$PROJECT_DIR$/mark-pc/forget.html" />
@@ -192,6 +200,7 @@
         <option value="$PROJECT_DIR$/mark-pc/js/payfor.js" />
         <option value="$PROJECT_DIR$/mark-pc/details.html" />
         <option value="$PROJECT_DIR$/mark-pc/styles/styles.css" />
+        <option value="$PROJECT_DIR$/mark-pc/register.html" />
       </list>
     </option>
   </component>
@@ -405,12 +414,12 @@
       <workItem from="1489118500353" duration="827000" />
       <workItem from="1489372248824" duration="6572000" />
       <workItem from="1489589597859" duration="579000" />
-      <workItem from="1489590281134" duration="311000" />
+      <workItem from="1489590281134" duration="505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142594000" />
+    <option name="totallyTimeSpent" value="142788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -555,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mark-pc/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mark-pc/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -596,6 +598,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
           <caret line="98" column="21" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -632,21 +635,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mark-pc/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-          <folding>
-            <element signature="e#10223#10229#0" expanded="true" />
-            <element signature="e#10229#10235#0" expanded="true" />
-            <element signature="e#10235#10241#0" expanded="true" />
-            <element signature="e#10241#10247#0" expanded="true" />
-            <element signature="e#10294#10300#0" expanded="true" />
-            <element signature="e#10300#10306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mark-pc/js/payfor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -674,6 +662,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="1169" column="14" selection-start-line="1169" selection-start-column="14" selection-end-line="1169" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="e#10223#10229#0" expanded="true" />
+            <element signature="e#10229#10235#0" expanded="true" />
+            <element signature="e#10235#10241#0" expanded="true" />
+            <element signature="e#10241#10247#0" expanded="true" />
+            <element signature="e#10294#10300#0" expanded="true" />
+            <element signature="e#10300#10306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mark-pc/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
           <folding />
         </state>
       </provider>
