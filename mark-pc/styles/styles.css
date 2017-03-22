@@ -16,7 +16,8 @@ button, input, select, textarea {
     font-size: 100%;
     border: 0;
     padding: 0;
-    margin: 0
+    margin: 0;
+    outline:none;
 }
 
 .fl {
@@ -1074,15 +1075,17 @@ button, input, select, textarea {
 
 .hotgoods li {
     overflow: hidden;
-    margin: 0 30px 30px 0;
+    margin: 0 18px 18px 0;
     background: #fff;
     float: left;
-    position: relative
+    position: relative;
+    width: 285px;
+    height: 380px;
 }
 
 .hotgoods li img {
-    width: 580px;
-    height: 278px;
+    width: 285px;
+    height: 285px;
 }
 
 .hotgoods li .f40 {
@@ -1097,10 +1100,10 @@ button, input, select, textarea {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    font-size: 14px;
-    padding: 10px 0 0 7px;
+    font-size: 13px;
+    padding: 15px 0 0 13px;
 }
-
+.hotgoods li p{ margin: 0;}
 .hotgoods li .f16 {
     margin-left: 10px;
     font-size: 14px;
