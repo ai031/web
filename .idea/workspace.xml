@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbed63ea-2552-4b4e-b4dd-71fd695a8da5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lmjia/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lmjia/cp1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lmjia/cp2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lmjia/new.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="web.iws" />
@@ -532,12 +527,12 @@
       <workItem from="1491915515122" duration="140000" />
       <workItem from="1491960974224" duration="2474000" />
       <workItem from="1491964059920" duration="6150000" />
-      <workItem from="1492052113313" duration="510000" />
+      <workItem from="1492052113313" duration="722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174280000" />
+    <option name="totallyTimeSpent" value="174492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
