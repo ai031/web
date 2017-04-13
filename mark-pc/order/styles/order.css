@@ -1,0 +1,427 @@
+body {
+    background: #f6f6f6
+}
+
+.order-l {
+    padding: 20px;
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.order-l ul {
+}
+
+.order-l li {
+    line-height: 60px;
+    border-bottom: 1px dashed #dfdfdf;
+}
+
+.order-l li:last-child {
+    border-bottom: 0;
+}
+
+.order-l a {
+    color: #666;
+    display: block;
+    text-decoration: none;
+}
+
+.order-r {
+    padding: 20px;
+    float: left;
+    width: 980px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.user {
+    height: 70px
+}
+
+.user .usicon {
+    margin-top: -5px;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: 1px solid #dfdfdf;
+    margin-right: 10px
+}
+
+.user .f16 {
+    color: #3399cc;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0 0 0
+}
+
+.user .f12 {
+    color: #999;
+    font-size: 12px;
+    margin: 10px 0 0 0
+}
+
+.ortab {
+    margin: 10px 0;
+}
+
+.ortab ul {
+    background: #fff;
+    overflow: hidden
+}
+
+.ortab li {
+    text-align: center;
+    width: 25%;
+    float: left;
+    line-height: 46px;
+    border: 1px solid #eee
+}
+
+.ortab li b {
+    padding: 0 6px;
+    color: #F65150
+}
+
+.ortab a {
+    color: #666;
+    display: block;
+    text-decoration: none
+}
+
+.kong {
+    font-size: 15px;
+    color: #9a9a9a;
+    background: #f5f5f5;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.kong img {
+    width: 300px;
+    height: 214px;
+}
+
+.orlist {
+}
+
+.orlist table {
+    width: 100%
+}
+
+.orlist th {
+    background: #eeeeee;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center
+}
+
+.orlist .product-item {
+    width: 30%
+}
+
+.orlist .price-item {
+    width: 15%
+}
+
+.orlist .quantity-item {
+    width: 15%
+}
+
+.orlist .subtotal-item {
+    width: 15%
+}
+
+.orlist .actions-item {
+    width: 10%
+}
+
+.orlist .play-item {
+    width: 15%
+}
+
+.orlist .p1 {
+    border-radius: 4px;
+    padding: 5px 10px;
+    background: #F65150;
+    text-align: center;
+    color: #fff
+}
+
+.orlist .p2 {
+    border-radius: 4px;
+    padding: 5px 10px;
+    background: #8ccaff;
+    text-align: center;
+    color: #fff
+}
+
+.tb-main {
+    background: #fffafb;
+    border: 1px solid #dfdfdf;
+    margin: 10px 0
+}
+
+.tb-main td {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.tb-main tbody {
+    border-bottom: 1px solid #dfdfdf
+}
+
+.tb-main a {
+    text-decoration: none;
+}
+
+.tb-pr img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 15px;
+}
+
+.tb-pr p {
+    text-align: left
+}
+
+.num {
+    width: 106px;
+    margin: 0 auto;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    height: 32px
+}
+
+.num i {
+    float: left;
+    cursor: pointer;
+    font-weight: bold;
+    width: 32px;
+    line-height: 30px;
+    text-align: center;
+    font-family: "黑体";
+    font-size: 16px;
+}
+
+.num input {
+    float: left;
+    width: 40px;
+    line-height: 30px;
+    border: 0;
+    text-align: center
+}
+
+.num .no {
+    color: #e2e2e2
+}
+
+.tb-picr {
+    font-size: 14px;
+}
+
+.tb-picr s {
+    color: #999;
+}
+
+.fred {
+    color: #F65150;
+    font-size: 16px;
+}
+
+.decrease {
+    border-right: 1px solid #dfdfdf
+}
+
+.increase {
+    border-left: 1px solid #dfdfdf
+}
+
+.bill {
+    line-height: 36px;
+}
+
+.bill .gray {
+    color: #999;
+    width: 80px;
+    float: left
+}
+
+.bill h1 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 46px;
+    border-bottom: 1px dashed #dfdfdf;
+}
+
+.bill input {
+    padding-left: 10px;
+    height: 36px;
+    border: 1px solid #dfdfdf;
+    width: 400px
+}
+
+.address {
+    margin: 20px 0;
+    color: #999;
+    text-align: center;
+    line-height: 90px;
+    background: #eee;
+    border: 1px dashed #dfdfdf;
+    width: 200px;
+    height: 100px
+}
+
+.address img {
+    width: 16px;
+    margin-right: 10px;
+    margin-top: -3px;
+}
+
+.address a {
+    text-decoration: none;
+    color: #999;
+}
+
+.radioadd {
+    margin-top: 30px;
+}
+
+.radioadd input {
+    width: 20px;
+    float: left;
+    margin: 0 10px 0 0
+}
+
+.textarea {
+    border: 1px solid #dfdfdf;
+    width: 300px;
+    height: 100px
+}
+
+.t_Submit {
+    background: #eee;
+    padding: 20px;
+    text-align: right
+}
+
+.t_Submit a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-left: 20px;
+    background: #F65150;
+    color: #fff;
+    font-size: 16px;
+}
+
+.t_Submit .f22 {
+    font-size: 22px;
+    color: #F65150
+}
+
+.money {
+    padding: 20px
+}
+
+.money img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.money .f14 {
+    font-size: 14px;
+    color: #666
+}
+
+.money .f18 {
+    margin-top: -7px;
+    font-size: 20px;
+    font-family: "微软雅黑", "verdana";
+    color: #F65150
+}
+
+.moneylist {
+    margin: 0 -20px;
+    border-top: 1px solid #dfdfdf
+}
+
+.moneylist h1 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 42px;
+    padding-left: 20px;
+}
+
+.moneylist table {
+    width: 100%;
+}
+
+.moneylist th {
+    background: #eeeeee;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center
+}
+
+.moneylist td {
+    padding: 20px;
+    text-align: center;
+    width: 25%;
+}
+
+.moneylist tr {
+    border-bottom: 1px dashed #dfdfdf
+}
+
+.moneylist tr:last-child {
+    border-bottom: 0;
+!important;
+}
+
+.stup {
+    position: relative;
+    width: 352px
+}
+
+.flow-steps {
+    background: url("../images/flow-steps-3.png") no-repeat;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 24px;
+    width: 350px;
+}
+
+.stup ul {
+    margin: 36px -56px 0 -66px;
+}
+
+.stup li {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+}
+
+.stup .curr {
+    color: #F65150
+}
+
+.ma-t {
+    margin-top: 30px
+}
+
+.ma-l {
+    margin-left: 30px
+}
