@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+.tophead{ background:#f65150; height:70px; width:100%; position:fixed; top:0}
+	.tophead .w1280{ width:1280px; margin:0 auto;overflow:hidden;}
+	.tophead .img_cir{ float:left; background:#f65150; border-radius:0 0 20px 20px}
+	.tophead .img_cir img{ width:100px; height:105px}
+	.tophead .w1280 ul{ overflow:hidden; float:right}
+	.tophead .w1280 li{ font-size:16px; float:left; width:120px; line-height:70px}
+	.tophead .w1280 li a{ color:#fff; display:block; text-align:center }
+	.tophead .w1280 li a:hover{color:#f65150;background:#eff3f6; height:70px; width:120px; text-decoration:none}
+	.tophead .curr{color:#f65150 !important;background:#eff3f6; height:70px; width:120px}
+.head{ background: url(images/dabg.png); height:60px; width:100%; position:fixed; top:0}
+	.head .w1280{ width:1280px; margin:0 auto;overflow:hidden;}
+	.head .img_cir{ float:left; background:#f65150; border-radius:0 0 20px 20px}
+	.head .img_cir img{ width:90px; height:95px}
+	.head .w1280 ul{ overflow:hidden; float:right}
+	.head .w1280 li{ font-size:16px; float:left; width:120px; line-height:60px}
+	.head .w1280 li a{ color:#fff; display:block; text-align:center }
+	.head .w1280 li a:hover{color:#f65150;background:#eff3f6; height:60px; width:120px; text-decoration:none}
+	.head .curr{color:#f65150 !important; height:60px; width:120px}
+.navlist{overflow:hidden;width:1280px; margin:70px auto 0 auto;}
+	.navlist ul{ overflow:hidden; margin:60px auto 30px auto }
+	.navlist li{ float:left; width:120px; line-height:38px}
+	.navlist a{color:#353535; }
+	.navlist a:hover{color:#f65150; border-bottom:2px solid #f65150}
+	.navlist .curr{color:#f65150; border-bottom:2px solid #f65150}
+.box{ width:1280px; margin:10px auto;background:#fff; padding:20px 40px 60px 40px; color:#353535; overflow:hidden }
+	.box .bt{ background:#fff;font-size:16px; line-height:40px; border-bottom:1px solid #eee; }
+	.box .ceo{ width:800px; margin:60px auto 30px auto; overflow:hidden}
+	.box .per{ width:200px; margin:0 100px 20px 0; float:left; text-align:center}
+	.box .per h1{ line-height:60px; font-size:24px}
+	.box img{ float:left; margin-bottom:20px}
+	.box .txt{ float:left; font-size:16px;background:#fff; padding-top:20px; width:500px}
+	.box .txt b{ font-size:18px}
+	.box .introduce{background:#fff; line-height:30px }
+	.box .introduce img{ margin:30px 0;}
+	.box .introduce .txt{ background:#fff}
+	.box .introduce t{ color:#f65150;}
+	.box .introduce b{ display:block; font-size:16px}
+.footer{ background:#404040; padding:15px 0;  color:#fff; overflow:hidden}
+	.footer .w1280{ overflow:hidden;width:1280px; margin:0 auto}
+	.footer img{ float:left; margin:0 20px 0 0}
+	.footer .txt{background:#404040; color:#fff; font-size:18px;  float:left; line-height:50px}
+	.footer t{ float:left; margin-left:30px}
+	.footer .gat{font-size:14px; margin-left:10px; line-height:50px}
+	.footer .gat img{ margin:16px -20px 0 20px; width:20px; height:20px}
+.service{ margin:70px auto 0 auto; overflow:hidden}
+	.service img{ width:100%}
+	.service .s1{ width:1280px; margin:0 auto; overflow:hidden}
+	.service .b1{ background:url(images/txtlist.png) no-repeat 50% 0; background-size:1200px; height:100px; margin:60px auto 30px auto}
+	.service .b2 ul{ overflow:hidden}
+	.service .b2 li{ float:left; width:240px; line-height:30px; text-align:center}
+	.service .b2 li img{ width:100px; height:100px; display:block; margin:15px auto}
+	.service .b3{background:url(images/txtlist.png) no-repeat 50% -120px; background-size:1200px; height:100px; margin:65px auto 30px auto}
+	.service .b4 ul{ overflow:hidden; margin:70px auto}
+	.service .b4 li{ float:left; width:300px; line-height:20px; text-align:center;overflow:hidden; color:#888}
+	.service .b4 li img{ width:120px; height:120px; display:block; margin:15px auto 20px auto}
+	.service .b4 li h4{ color:#353535; font-size:18px; margin-bottom:10px}
+	.service .b5{background:url(images/txtlist.png) no-repeat 50% -220px; background-size:1200px; height:100px; margin:65px auto 30px auto}
+	.service .b6 { text-align:center}
+	.service .b6 img{ width:700px; height:375px; margin:20px auto}
+	.service .b7{background:url(images/txtlist.png) no-repeat 50% -320px; background-size:1200px; height:100px; margin:65px auto 30px auto}
+	.service .b8 { text-align:center}
+	.service .b8 img{ width:900px; height:249px; margin:20px auto}
+	.service .p1{ background:url(images/txtlist.png) no-repeat 50% -430px ; background-size:1200px; height:100px; margin:60px auto 30px auto}
+	.service .p2{ text-align:center; margin:50px 0}
+	.service .p2 img{ width:1000px; height:408px}
+	.service .b9{background:url(images/txtlist.png) no-repeat 50% -980px; background-size:1200px; height:90px; margin:0 auto}
+	.service .b10{background:url(images/txtlist.png) no-repeat 50% -1080px; background-size:1200px; height:90px; margin:0 auto}
+	.service .b11{background:url(images/txtlist.png) no-repeat 50% -1200px; background-size:1200px; height:90px; margin:0 auto}
+	.service .b12{background:url(images/txtlist.png) no-repeat 50% -1310px; background-size:1200px; height:90px; margin:0 auto}
+	.service .b13{background:url(images/txtlist.png) no-repeat 50% -1410px; background-size:1200px; height:90px; margin:0 auto}
+	.service .b14{background:url(images/txtlist.png) no-repeat 50% -1530px; background-size:1200px; height:90px; margin:0 auto}
+.partner{margin:70px auto 0 auto; overflow:hidden }
+	.partner img{ width:100%}
+	.partner .w1280{width:1280px; margin:0 auto; overflow:hidden}
+	.partner .p1{background:url(images/txtlist.png) no-repeat 50% -530px; background-size:1200px; height:100px; margin:60px auto 30px auto}
+	.partner .p2{ text-align:center; margin-top:50px}
+	.partner .p2 img{ width:600px; height:280px}
+	.partner .p3{background:url(images/txtlist.png) no-repeat 50% -630px; background-size:1200px; height:100px; margin:60px auto 30px auto}
+	.partner .p4{ text-align:center; margin:50px 0;}
+	.partner .p4 img{ width:700px; height:423px}
+	.partner .p5{ width:700px; margin:0 auto; line-height:36px; font-size:16px;}
+	.partner .p5 b{ color:#f65150}
+	.partner .p6{background:url(images/txtlist.png) no-repeat 50% -730px; background-size:1200px; height:100px; margin:60px auto 30px auto}
+	.partner .p8{background:url(images/txtlist.png) no-repeat 50% -840px; background-size:1200px; height:100px; margin:60px auto 30px auto}
+	.partner .p7{ text-align:center; margin-top:50px}
+	.partner .p7 img{ width:700px; }
+.banner{overflow:hidden}
+	.banner img{ width:100%}
+.wedo{ background: url(images/index-img1.jpg) center; margin:0 auto; padding:60px 0 50px 0; overflow:hidden; }
+	.wedo .wtxt{ font-size:14px; text-align:center; color:#888}
+.serbg{ background: url(images/index-img2.jpg) center; margin:0 auto; padding:60px 0 0 0; overflow:hidden; }
+	.serbg .simg{ margin:80px 0 120px 0;}
+.relaxed{ width:1200px; margin:60px auto}
+	.relaxed dl{ float:left; width:50%; margin-bottom:70px }
+	.relaxed dt{ float:left; margin-right:20px}
+	.relaxed dt img{ width:180px; height:131px}
+	.relaxed dd{ float:left; line-height:22px;font-size:12px; width:60%}
+	.relaxed .txt{ color:#888; font-size:13px}
+	.relaxed b{ color:#353535; font-size:15px}
+	.relaxed t{ font-size:16px; color:#f65150}
+	.relaxed a{ border:1px solid #646365; color:#646365; line-height:24px; border-radius:2px; width:80px; text-align:center; display:block; margin-top:13px; }
+	.relaxed a:hover{text-decoration:none; background:#f65150; color:#fff;border:1px solid #f65150; }
+.pader{ background: url(images/index-img8.jpg) center; margin:0 auto; padding:60px 0 50px 0; overflow:hidden; }
+	.pader .w1000{ text-align:center; width:1000px; margin:50px auto}
+	.pader img{ width:100%}
+.cont{ background: url(images/index-img10.jpg) center; margin:0 auto; padding:60px 0 50px 0; overflow:hidden; }
+	.cont .w1000{ width:1000px; margin:70px auto}
+	.cont .cleft{ width:450px; float:left; background:#fff; }
+	.cont .cleft h1{ padding-left:20px;font-size:16px; background:#c9c9c9; line-height:48px; color:#353535; margin-top:0;}
+	.cont .cleft h2{ padding-left:20px;color:#f65150}
+	.cont .cleft ul{ }
+	.cont .cleft li{margin: 0 20px; padding-bottom:20px; color:#666; line-height:26px; border-bottom:1px dashed #ccc; }
+	.cont .cleft .ewm{ padding:20px; overflow:hidden; }
+	.cont .cleft .ewm img{ float:left; margin-right:20px; width:150px; height:150px}
+	.cont .cleft .ewm b{line-height:30px}
+	.cont .cleft .ewm t{ color:#f65150; font-size:18px;}
+	.cont .cright{ float:right; width:500px}
+	.cont .cright h1{ font-size:16px;}
+	.cont .cright ul{}
+	.cont .cright li{ margin:20px 0}
+	.cont .cright li input{ padding-left:10px; height:36px; width:400px}
+	.cont .cright li textarea{  padding-left:10px; width:400px; height:100px}
+	
+	.cont .cright li a{background:#ff3a55; line-height:42px; border-radius:6px; width:400px;text-align:center; border:0; color:#fff; font-size:16px; display:block}
+	.cont .cright li a:hover{ text-decoration:none}
+.contion{ margin:0 auto; padding:20px 0 50px 0; overflow:hidden; }
+	.contion .w1000{ width:1000px; margin:70px auto}
+	.contion .cleft{ width:450px; float:left; background:#fff; }
+	.contion .cleft h1{ padding-left:20px;font-size:16px; background:#c9c9c9; line-height:48px; color:#353535; margin-top:0;}
+	.contion .cleft h2{ padding-left:20px;color:#f65150; margin-top:20px}
+	.contion .cleft ul{ }
+	.contion .cleft li{margin: 0 20px; padding-bottom:20px; color:#666; line-height:26px; border-bottom:1px dashed #ccc; }
+	.contion .cleft .ewm{ padding:20px; overflow:hidden; }
+	.contion .cleft .ewm img{ float:left; margin-right:20px; width:150px; height:150px}
+	.contion .cleft .ewm b{line-height:30px}
+	.contion .cleft .ewm t{ color:#f65150; font-size:18px;}
+	.contion .cright{ float:right; width:500px}
+	.contion .cright h1{ font-size:16px;}
+	.contion .cright ul{}
+	.contion .cright li{ margin:20px 0}
+	.contion .cright li input{ padding-left:10px; font-size:14px; height:36px; width:400px;border:1px solid #eee}
+	.contion .cright li textarea{ padding-left:10px; width:400px;font-size:14px; height:100px; border:1px solid #eee}
+	
+	.contion .cright li a{background:#ff3a55; line-height:42px; border-radius:6px; width:400px;text-align:center; border:0; color:#fff; font-size:16px; display:block}
+	.contion .cright li a:hover{ text-decoration:none}
+.m-bottom{ margin-top:50px}
+.lead{ width:1200px; margin:20px auto}
+	.lead img{ width:100%}

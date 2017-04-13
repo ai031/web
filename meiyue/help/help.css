@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #EFEFF4;
+}
+
+ul, li, p {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.help-user {
+}
+
+.help-user ul {
+}
+
+.help-user li {
+    background: #fff;
+    line-height: 22px;
+    padding: 10px 15px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    margin-top: 15px;
+
+}
+.help-user .red{ color: #f15650; font-size: 16px;}
+.help-user .b1{ padding: 15px 15px 0 15px; }
+.help-user li img {
+    margin: 10px 0;
+    width: 100%;
+}
+.help-user .f8{ background: #f8f8f8;}
+.help-user .mt-15{ margin-top: 0;}
+.show-user {
+    line-height: 22px;
+    background: #F8F8F8;
+    padding: 15px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.show-user img{width: 100%; margin: 10px 0}
+.help-parther {
+    background: #fff;
+}
+
+.help-parther ul {
+}
+
+.help-parther li {
+    line-height: 22px;
+    padding: 10px 15px;
+}
+.help-parther .red{ color: #f15560; font-size: 16px;}
+.help-parther img {
+    width: 100%;
+    font-size: 0; vertical-align: top
+}
+.helpmain{}
+.helpmain ul{ border-bottom: 1px solid #dfdfdf; border-top:1px solid #dfdfdf;  background: #fff; padding-left: 15px; margin-top:-5px}
+.helpmain li{ line-height: 44px;height: 44px;}
+.helpmain li img{ width:7.2%; float: left; margin-right: 10px; margin-top: 10px }
+.helpmain img{ width: 100%; border:0}
+.helpmain p{ margin:0}
+.helpmain .bo-b{ border-bottom: 1px solid #dfdfdf}
+.helpmain .rimg{ float: right; }
+.helpmain .rimg img{width: 8px; margin-top: 15px; margin-right: 15px;}
+.helpmain a{ display: block; color: #353535; text-decoration: none}

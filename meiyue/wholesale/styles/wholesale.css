@@ -1,0 +1,302 @@
+body {
+    color: #353535;
+    background: #EFEFF4;
+
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.order-w {
+    line-height: 44px;
+    height: 44px;
+    background: url("../images/order-icon.png") no-repeat 15px 9px #fff;
+    font-size: 15px;
+    background-size: 17px;
+    padding: 0 15px 0 45px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.order-w img {
+    float: right;
+    width: 8px;
+    margin-top: 15px;
+}
+
+.order-w a {
+    display: block;
+    text-decoration: none;
+    color: #353535
+}
+
+/* tao-content */
+.taolist {
+    margin-bottom: 65px;
+    overflow: hidden;
+	margin-top:10px;
+	display:block
+}
+
+.taolist-clear {
+    padding-top: 10px;
+}
+
+.taolist dl {
+    width: 49%;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.taolist dt {
+}
+
+.taolist dt img {
+    width: 100%;
+
+}
+
+.taolist dd {
+    padding: 12px 9px 5px 10px;
+    line-height: 16px
+}
+
+.taolist .cny {
+    font-size: 18px;
+    background: url("../images/cnyicon.png") no-repeat -1px 5px;
+    background-size: 7px;
+    padding-left: 10px;
+    color: #f65150;
+}
+
+.taolist dd .txt {
+    height: 33px;
+    font-size: 15px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    color: #000;
+}
+
+.taolist dd .text-right {
+    color: #b3b3b3;
+    font-size: 12px;
+    text-align: left;
+    margin-top: -4px;
+    padding-right: 4px;
+}
+
+.taolist dd .fa-cny {
+    color: #f65150;
+    margin-top: -2px
+}
+
+.taolist .mr {
+    margin-right: 2%
+}
+
+.fixe {
+    background: #f8f8f8;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 49px;
+    border-top: 1px solid #979797;
+    padding-top: 2px;
+}
+
+.fixe ul {
+}
+
+.fixe li {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-size: 10px;
+    color: #F65150
+}
+
+.fixe img {
+    display: block;
+    margin: 0 auto;
+    width: 36%;
+}
+
+.fixe a {
+    display: block;
+    text-decoration: none;
+    color: #7a7a7a
+}
+
+.fixe .b3 {
+    color: #b3b3b3
+}
+
+/*产品详情*/
+.details-dy {
+}
+
+.details-dy img {
+    width: 100%;
+}
+
+.details-txt {
+    padding: 0 15px;
+    background: #fff;
+    border-bottom: 1px #dfdfdf solid;
+    border-top: 1px #dfdfdf solid;
+}
+
+.details-txt h4 {
+    font-weight: 200;
+    color: #000 !important;
+    font-size: 16px;
+    margin: 10px 0 8px 0
+}
+
+.details-txt .b3b3b3 {
+    color: #b3b3b3;
+    line-height: 16px;
+    font-size: 13px;
+}
+
+.details-txt .cny {
+    font-size: 21px;
+    font-weight: 300;
+    background: url("../images/cnyicon.png") no-repeat -1px 8px;
+    background-size: 9px;
+    padding-left: 10px;
+    color: #f65150;
+}
+
+.details-txt ul {
+    overflow: hidden;
+    margin-top: -5px;
+
+}
+.details-txt .f13{ font-size: 13px; color: #353535; margin-left: 10px}
+.details-txt li {
+    text-align: left;
+    color: #888;
+    font-size: 12px;
+    width: 33.3%;
+    overflow: hidden;
+    padding: 0 0 15px 0;
+}
+
+.details-txt li.text-right {
+    text-align: right
+}
+
+.details-txt li.text-center {
+    text-align: center
+}
+
+.footer-btn {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-btn button {
+    border-radius: 0;
+    background: #f65150
+}
+
+.mt65 {
+    margin-bottom: 65px;
+}
+
+.editshow {
+}
+
+.editshow h1 {
+    text-align: center;
+    font-size: 17px;
+    color: #000;
+    font-weight:bold;
+}
+
+.editshow h2 {
+    text-align: center;
+    font-size: 15px;
+    color: #000
+}
+
+.editshow .line-r {
+    border-right: 1px solid #dfdfdf;
+}
+
+.editshow button {
+    color: #0079FF;
+    font-size: 17px;
+    border: 0;
+    background: none;
+    text-decoration: none;
+    line-height: 44px;
+    width: 49%
+}
+
+.editshow .footer {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #dfdfdf
+}
+
+.iphone {
+    margin: 80px 10px 0 10px
+}
+.noorder{ text-align: center}
+.noorder img{ width: 40%; margin: 100px auto 10px auto}
+.noorder h1{ color: #353535; font-size: 17px;}
+.bgcolor{ background: #fff}
+.details-av {
+    margin: 15px 0 60px 0;
+    padding: 0 15px 15px 15px;
+    color: #353535;
+    background: #fff;
+    border-bottom: 1px #dfdfdf solid;
+    border-top: 1px #dfdfdf solid
+}
+
+.details-av h2 {
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: #888;
+    border-bottom: 1px #dfdfdf solid;
+}
+
+.details-av ul {
+    overflow: hidden;
+    margin-top: -5px
+}
+
+.details-av li {
+    padding: 10px 0 0 0;
+    line-height: 22px;
+}
+
+.details-av li.b1 {
+}
+
+.details-av li.b1 img {
+    width: 32px;
+    height: 32px
+}
+
+.details-av li.b2 {
+    padding-left: 10px;
+    line-height: 32px
+}
+
+.details-av li.b3 {
+    color: #cacaca;
+}
+.details{ font-size: 14px; background: #fff; padding: 15px; color: #666; }
+.details span{ height: 25px; color: #353535; float: left; display: block; width:65px}
