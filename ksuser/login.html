@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
+</head>
+<body class="loginbg">
+<div class="head"></div>
+<div class="login box-shadow-3">
+    <p><img src="images/logo.png" alt="款爷"></p>
+    <h1>款爷后台管理系统</h1>
+    <form class="cmxform" id="commentForm" method="get" action="Centralmanagement.html">
+    <ul>
+        <li class="name"><input placeholder="请输入手机号码" id="cname" name="name" minlength="11" type="tel" required></li>
+        <li class="pwd"><input  placeholder="请输入密码"  id="password" name="password" type="password" required ></li>
+    </ul>
+    <div class="red-btn"><input type="submit" value="登录" ></div>
+
+    </form>
+</div>
+
+<script>
+    $.validator.setDefaults({
+        submitHandler: function() {
+            alert("提交事件!");
+        }
+    });
+    $().ready(function() {
+        $("#commentForm").validate();
+    });
+</script>
+
+</body>
+</html>
