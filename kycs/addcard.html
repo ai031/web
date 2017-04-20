@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<!--/*@thymesVar id="workModel" type="java.lang.String"*/-->
+<!--/*@thymesVar id="banks" type="java.lang.Iterable<me.jiangcai.dating.entity.Bank>"*/-->
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>添加银行借记卡</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/meiyue.css">
+    <script src="dist/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/share.js"></script>
+    <script src="dist/js/add-card.js"></script>
+    <script src="//cdn.kuanyes.com/jquery-validation-1.15.0/jquery.validate.min.js"></script>
+    <script src="//cdn.kuanyes.com/jquery-validation-1.15.0/localization/messages_zh.js"></script>
+</head>
+<body>
+<form class="from-bank" action="receivables.html" th:action="@{/registerCard}" th:method="post" id="addCardForm"
+      role="form">
+    <input type="hidden" name="workModel" th:if="${workModel!=null}" th:value="${workModel}"/>
+    <div class="showcard" id="cardShower">3333333333</div>
+    <th:block th:switch="${workModel}">
+        <p class="b1" th:case="'loan'">请绑定您的借还款(<b>结算卡</b>)</p>
+        <p class="b1" th:case="'bind'">请确定持卡人的借记卡(<b>不可修改</b>)</p>
+        <p class="b1" th:case="*">请绑定持卡人的银行卡(<b>借记卡</b>)</p>
+    </th:block>
+    <ul>
+        <li>
+            <label>持卡人姓名</label>
+            <input type="text" name="name" required minlength="2" maxlength="20" placeholder="输入真实姓名">
+        </li>
+        <li>
+            <label>持卡人身份证</label>
+            <input type="text" name="ownerId" required minlength="15" maxlength="20" placeholder="输入真实持卡人身份证">
+        </li>
+        <li>
+            <label>银行卡号</label>
+            <input type="tel" style="width: 210px;" name="number" required minlength="16" placeholder="持卡人银行卡卡号"
+                   class="b3">
+        </li>
+        <li>
+            <label class="pull-left">开户银行</label>
+            <span class="sleBG s2"
+                  style="background:url(images/Path.png) no-repeat right;background-size:10px 6px;">
+					  <span class="sleHid">
+				<select name="bank" class="select bank-selector">
+					 <option value="" th:remove="all">默认选择</option>
+                     <option value="1" th:each="bank:${banks}" th:value="${bank.code}"
+                             th:text="${bank.name}">很多银行</option>
+					 <option value="2" th:remove="all">工商银行</option>
+				</select>
+				</span></span></li>
+        <li>
+            <label class="pull-left">开户地址</label>
+            <span class="sleBG s1"
+                  style="background:url(images/Path.png) no-repeat 80px 19px;background-size:10px 6px;"> <span
+                    class="sleHid">
+        <select class="select2 province-selector" name="province" required>
+        <option value="1">北京</option>
+        </select>
+        </span></span> <span class="sleBG s3"
+                             style="background:url(images/Path.png) no-repeat right;background-size:10px 6px; "> <span
+                class="sleHid">
+        <select class="select3 city-selector" name="city" required>
+        <option value="1">北京</option>
+        </select>
+        </span></span></li>
+        <!--to 春爱:时间问题 暂时先不开发新的UI-->
+        <!--<li class="Regional"><label class="pull-left">开户地址</label><input type="text" placeholder="请选择省市区"><span class="b-r"><img-->
+        <!--src="images/blackright-r.png"></span></li>-->
+        <li class="clickHref noline" id="subBranchRegion" data-href="addcardlist.html"
+            th:attr="data-href=@{/subBranchHtml}">
+            <label class="pull-left">支行名称</label>
+            <input type="text" readonly name="subBranchName" required placeholder="支行">
+            <span class="b-r"><img src="images/blackright-r.png"></span></li>
+
+    </ul>
+    <p class="b4">此银行卡号开户名必须与上方开户名一致，否则提现会失败！</p>
+    <p class="b4" style="color:red" th:if="${#strings.equals('bind',workModel)}">务必谨慎填写,提交之后将无法修改</p>
+    <div class="p-15 mar30">
+        <input value="提交" type="submit" class="black" name="btn1" disabled="disabled"/>
+    </div>
+    <input type="hidden" name="subBranch"/>
+</form>
+<p class="notes">电话: 400-8588528</p>
+<!-- grade -->
+<div class="grade-eject">
+    <ul class="grade-w" id="gradew">
+        <li onclick="grade1(this)">杭州</li>
+        <li onclick="grade1(this)">全国</li>
+        <li onclick="grade1(this)">北京</li>
+        <li onclick="grade1(this)">天津</li>
+        <li onclick="grade1(this)">河北</li>
+        <li onclick="grade1(this)">山西</li>
+        <li onclick="grade1(this)">内蒙古</li>
+        <li onclick="grade1(this)">辽宁</li>
+        <li onclick="grade1(this)">吉林</li>
+        <li onclick="grade1(this)">黑龙江</li>
+        <li onclick="grade1(this)">上海</li>
+        <li onclick="grade1(this)">江苏</li>
+        <li onclick="grade1(this)">山东</li>
+        <li onclick="grade1(this)">河南</li>
+        <li onclick="grade1(this)">湖北</li>
+        <li onclick="grade1(this)">湖南</li>
+        <li onclick="grade1(this)">广东</li>
+        <li onclick="grade1(this)">广西</li>
+        <li onclick="grade1(this)">海南</li>
+    </ul>
+    <ul class="grade-t" id="gradet">
+        <li onclick="gradet(this)">全河北</li>
+        <li onclick="gradet(this)">石家庄</li>
+        <li onclick="gradet(this)">唐山</li>
+        <li onclick="gradet(this)">秦皇岛</li>
+        <li onclick="gradet(this)">邢台</li>
+        <li onclick="gradet(this)">保定</li>
+        <li onclick="gradet(this)">张家口</li>
+        <li onclick="gradet(this)">承德</li>
+        <li onclick="gradet(this)">沧州</li>
+        <li onclick="gradet(this)">廊坊</li>
+        <li onclick="gradet(this)">衡水</li>
+    </ul>
+    <ul class="grade-s" id="grades">
+        <li onclick="grades(this)">全秦皇岛</li>
+        <li onclick="grades(this)">海港区</li>
+        <li onclick="grades(this)">山海关区</li>
+        <li onclick="grades(this)">北戴河区</li>
+        <li onclick="grades(this)">青龙满族自治区</li>
+        <li onclick="grades(this)">昌黎县</li>
+        <li onclick="grades(this)">抚宁县</li>
+        <li onclick="grades(this)">卢龙县</li>
+        <li onclick="grades(this)">其他区</li>
+        <li onclick="grades(this)">经济技术开发区</li>
+    </ul>
+</div>
+<!-- End grade -->
+<!--<div class="show-bg" id="myAlert">填写内容不能为空</div>-->
+<script src="mock/all.js" th:src="@{/all.js}"></script>
+<script>
+    $(function () {
+        var validator = $("#addCardForm").validate({});
+    });
+
+</script>
+<script>
+    $(document).ready(function ($) {
+
+        $(".b3").click(function (event) {
+            $(".b1").css({"display": "none"});
+            $(".showcard").css({"display": "block"});
+        });
+
+    });
+</script>
+</body>
+</html>

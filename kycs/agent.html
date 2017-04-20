@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<!--/*@thymesVar id="banks" type="java.lang.Iterable<me.jiangcai.dating.entity.Bank>"*/-->
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>升级合伙人</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/meiyue.css">
+    <script src="dist/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="//cdn.kuanyes.com/jquery-validation-1.15.0/jquery.validate.min.js"></script>
+    <script src="//cdn.kuanyes.com/jquery-validation-1.15.0/localization/messages_zh.js"></script>
+</head>
+<body>
+<form class="from-bank" id="requestForm" role="form">
+    <ul>
+        <li>
+            <label class="icon"><img src="images/user-icon.svg"></label>
+			
+            <input type="text" name="name" placeholder="请输入姓名">
+        </li>
+        <li class="noline">
+            <label class="icon"><img src="dist/css/iphone-icon.svg"></label>
+            <input type="tel" name="mobile" placeholder="请输入手机号码">
+        </li>
+    </ul>
+	<p class="check" ><input type="checkbox" id="checkbox_a1" class="chk_1" checked /><label for="checkbox_a1"></label><span class="check-pos">同意<a href="agreement2.html">《款爷合伙人协议》</a></span></p>
+    <p class="b2">
+        <button type="submit" class="btn btn-danger btn-lg btn-block">提交申请</button>
+    </p>
+	
+</form>
+<p class="notes"><a href="explain.html" th:href="@{/explain}">合伙人收益说明</a></p>
+<script src="mock/all.js" th:src="@{/all.js}"></script>
+<script src="js/agent.js"></script>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="border-bottom:0">
+                <h4 class="modal-title" id="myModalLabel" style="text-align:center; font-size:17px;">您的资料已提交<br>
+24小时内有相关人员会回复您<br>
+请耐心等待</h4>
+            </div>
+            <div class="modal-footer">
+				
+                <div class="show-c3 cardSubmit ok-request">确定</div>
+			</div>
+        </div>
+    </div>
+</div>
+<div class="show-bg" id="myAlert">填写内容不能为空</div>
+</body>
+</html>

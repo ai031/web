@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<!--/*@thymesVar id="type" type="me.jiangcai.goods.trade.TradeStatus"*/-->
+<!--/*@thymesVar id="hasData" type="boolean"*/-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="//cdn.kuanyes.com/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/sale.css">
+    <script src="//cdn.kuanyes.com/jquery-3.1.1.min.js"></script>
+    <script src="//cdn.kuanyes.com/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script src="../dist/js/share.js?20170213"></script>
+    <script src="../mock/all.js" th:src="@{/all.js}"></script>
+    <script src="../dist/js/jquery.jscroll.min.js"></script>
+    <title>我的订单</title>
+</head>
+<body>
+<div class="nav">
+    <ul>
+        <li><a id="allOrdersLink" href="#" th:href="@{/sale/myOrders}" class="all"
+               th:classappend="${type==null?'current':''}">全部</a></li>
+        <li><a id="waitingPayOrdersLink" href="#" th:href="@{/sale/myOrders(type=ordered)}" class="topay"
+               th:classappend="${type==T(me.jiangcai.goods.trade.TradeStatus).ordered?'current':''}">待付款</a></li>
+        <li><a id="waitingSendOrdersLink" href="#" th:href="@{/sale/myOrders(type=paid)}" class="toshop"
+               th:classappend="${type==T(me.jiangcai.goods.trade.TradeStatus).paid?'current':''}">待发货</a></li>
+        <li><a id="waitingReceiveOrdersLink" href="#" th:href="@{/sale/myOrders(type=sent)}" class="togood"
+               th:classappend="${type==T(me.jiangcai.goods.trade.TradeStatus).sent?'current':''}">待收货</a></li>
+        <li><a id="allCompetedOrdersLink" href="#" th:href="@{/sale/myOrders(type=confirmed)}" class="finish"
+               th:classappend="${type==T(me.jiangcai.goods.trade.TradeStatus).confirmed?'current':''}">已完成</a></li>
+    </ul>
+</div>
+
+<div class="noorder" th:if="${!hasData}">
+    <p><img src="images/noorderbg.png"/></p>
+    <h1>您目前没有订单哦</h1>
+</div>
+<div class="saleshop a01" th:if="${hasData}">
+    <a class="next" href="myorder_data.html" th:href="@{/sale/myOrdersData(offset=0,type=${type})}">&nbsp;</a>
+</div>
+<script>
+    $(function () {
+        $('.saleshop').jscroll({
+            loadingHtml: '<img src="../images/loading.gif" name="LoadingIMG" alt="Loading" /> 载入中...',
+            nextSelector: 'a.next:last',
+            callback: function () {
+                $.DynamicAdjust('OrderConfirmButtons', '.confirmButton', function (toListener) {
+                    toListener.click(function () {
+                        var cashTrade = $(this).closest('.cashTrade');
+                        $.ajax($.uriPrefix + '/sale/trade/' + cashTrade.attr('data-id') + '/confirm', {
+                            method: 'put'
+                        });
+                    })
+                });
+                $.DynamicAdjustClickHref();
+            }
+        });
+    });
+</script>
+</body>
+</html>

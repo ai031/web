@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:wx="http://weixin.jiangcai.me" lang="en">
+<!--/*@thymesVar id="user" type="me.jiangcai.dating.entity.User"*/-->
+<!--/*@thymesVar id="invites" type="java.lang.Number"*/-->
+<!--/*@thymesVar id="inviteUsers" type="java.util.List<me.jiangcai.dating.model.InviteUser>"*/-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>邀请好友</title>
+    <link rel="stylesheet" href="//cdn.kuanyes.com/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/friends.css" th:href="@{/friends/styles/friends.css}">
+    <script src="//cdn.kuanyes.com/jquery-3.1.1.min.js"></script>
+    <script src="../dist/js/share.js" th:src="@{/dist/js/share.js}"></script>
+</head>
+<body class="ratebg" th:name="${user.id}">
+<div class="rate">
+    <div class="yqm">
+        <div class="yqm_sub" th:text="${'邀请码:'+user.inviteCode}" id="userInviteCode">邀请码:33333r3</div>
+    </div>
+    <p><img src="images/banner-tg.png" th:src="@{/friends/images/banner-tg.png(v=1422)}"/></p>
+    <h1>当前消费费率<span
+            th:text="${#numbers.formatDecimal(@systemService.systemBookRate(user).movePointRight(2),1,'COMMA',2,'POINT')}">
+    0.60</span>%</h1>
+    <p class="but"><img src="images/ratebutton.png"
+                        th:src="@{/friends/images/ratebutton.png}"
+                        class="share" alt="邀请好友降费率"/></p>
+</div>
+<div class="code-i">
+    <p class="f14">成功邀请好友：
+        <span class="r16" th:text="${invites}">1</span>人</p>
+    <ul class="clickHref" href="myfriends.html" th:href="@{/myInvitation}" id="toInviteList">
+        <li class="ntxt" th:each="u,st:${inviteUsers}" th:classappend="${u.payed?'ctxt':'opactiy'}">
+            <span th:text="${'第'+st.count+'人'}">第1人</span>
+            <img th:if="${u.headImageUrl!=null}" src="images/idimg.png" th:src="${u.headImageUrl}"/>
+            <img th:if="${u.headImageUrl==null}" src="images/none.png" th:src="@{/friends/images/none.png}"/>
+            <span th:text="${u.nickname}">昵称</span>
+        </li>
+        <li class="ntxt opactiy" th:remove="all">第2人<img src="images/none.png"/></li>
+        <li class="ntxt opactiy" th:remove="all">第3人<img src="images/none.png"/></li>
+        <li class="ntxt opactiy" th:remove="all">第4人<img src="images/none.png"/></li>
+        <li class="ntxt opactiy" th:remove="all">第5人<img src="images/none.png"/></li>
+        <span class="fr"><img src="images/right-icon.png" th:src="@{/friends/images/right-icon.png}"/></span>
+    </ul>
+</div>
+<div class="sharebg">
+    <p><img src="images/sharebgok.png" th:src="@{/images/sharebgok.png}"/></p>
+</div>
+<script src="//res.wx.qq.com/open/js/jweixin-1.0.0.js" th:remove="all"></script>
+<script wx:js=""></script>
+<script wx:share="${#share.title(user)}|${#share.desc(user)}|${#share.link(user,#request)}|${#share.imageUrl(user)}"></script>
+<script src="../mock/all.js" th:src="@{/all.js}"></script>
+<script>
+    $(document).ready(function ($) {
+
+        $(".sharebg").click(function () {
+            $(".sharebg").css({"display": "none"});
+        });
+
+        $(".share").click(function (event) {
+            $(".sharebg").css({"display": "block"});
+        });
+    });
+</script>
+</body>
+</html>
