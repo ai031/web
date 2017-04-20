@@ -6,8 +6,13 @@
 <br>
 
 商城：http://mall.kuanyes.com/win/mall/<br>
+<br>
 官网（设计➕前端）：http://www.kuanyes.com/<br>
+<br>
 利每家官网（设计正在设计中）：http://www.lmjia.cn/<br>
+<br>
 商城原型静态页面初级开发过程（：https://ai031.github.io/web/meiyue/mart/martindex.html
 
-<img src=
+
+
+
