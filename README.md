@@ -1,11 +1,11 @@
 # 
-后台：https://ai031.github.io/web/ksuser/Centralmanagement.html<br>
+后台（设计➕前端）：https://ai031.github.io/web/ksuser/Centralmanagement.html<br>
 <br>
 
-个人中心：https://ai031.github.io/web/kycs/my.html<br>
+个人中心（设计➕前端）：https://ai031.github.io/web/kycs/my.html<br>
 <br>
 
-商城：http://mall.kuanyes.com/win/mall/<br>
+商城（前端）：：http://mall.kuanyes.com/win/mall/<br>
 <br>
 官网（设计➕前端）：http://www.kuanyes.com/<br>
 <br>
