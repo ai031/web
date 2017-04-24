@@ -1,4 +1,12 @@
 # 
+浙江电信网上营业厅：http://zj.ct10000.com/hz.shtml<br>
+<br>
+
+政企网上营业厅：http://zj.189.cn/biz/zjpr/indexBiz/index.html<br>
+<br>
+手机工坊：http://www.shoujidiy.com/<br><br>
+
+天翼手机工坊：http://www.hicdma.com<br><br>
 后台（设计➕前端）：https://ai031.github.io/web/ksuser/Centralmanagement.html<br>
 <br>
 
