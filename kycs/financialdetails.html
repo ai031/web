@@ -15,7 +15,7 @@
     <script src="dist/js/share.js"></script>
 </head>
 <body>
-<div class="myorder-k" th:if="${orders.isEmpty()}">
+<div class="myorder-k" style="display: none"; th:if="${orders.isEmpty()}">
     <p><img src="images/money-kong.png" th:src="@{/images/money-kong.png}"></p>
     <h1>您当前还没有资金明细记录</h1>
 </div>
