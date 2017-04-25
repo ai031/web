@@ -298,7 +298,7 @@ body {
     float: left;
     margin: 0 10px 0 0
 }
-
+.radioadd a{ font-size: 12px; color:#2a6496}
 .textarea {
     border: 1px solid #dfdfdf;
     width: 300px;
