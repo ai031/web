@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbed63ea-2552-4b4e-b4dd-71fd695a8da5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kycs/dist/css/meiyue.css" afterPath="$PROJECT_DIR$/kycs/dist/css/meiyue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kycs/financialdetails.html" afterPath="$PROJECT_DIR$/kycs/financialdetails.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kycs/my.html" afterPath="$PROJECT_DIR$/kycs/my.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kycs/myinvitation.html" afterPath="$PROJECT_DIR$/kycs/myinvitation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kycs/myorder.html" afterPath="$PROJECT_DIR$/kycs/myorder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kycs/wealth.html" afterPath="$PROJECT_DIR$/kycs/wealth.html" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="logout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kycs/logout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mydata.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kycs/mydata.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myinvitation.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myinvitation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kycs/myinvitation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+            <state relative-caret-position="390">
+              <caret line="57" column="84" selection-start-line="57" selection-start-column="84" selection-end-line="57" selection-end-column="84" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -73,21 +60,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myteam.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kycs/myteam.html">
+      <file leaf-file-name="Verify.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kycs/Verify.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="270">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myTeamData.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kycs/myTeamData.html">
+      <file leaf-file-name="wealth.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kycs/wealth.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="210">
+              <caret line="34" column="94" selection-start-line="34" selection-start-column="94" selection-end-line="34" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meiyue.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kycs/dist/css/meiyue.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="3959" column="0" selection-start-line="3959" selection-start-column="0" selection-end-line="3959" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,8 +123,8 @@
       <file leaf-file-name="my.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kycs/my.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="450">
+              <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -150,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sale/addaddress.html" />
         <option value="$PROJECT_DIR$/sale/playclose.html" />
         <option value="$PROJECT_DIR$/sale/playto.html" />
         <option value="$PROJECT_DIR$/sale/playfinish.html" />
@@ -196,11 +192,12 @@
         <option value="$PROJECT_DIR$/mark-pc/order/styles/order.css" />
         <option value="$PROJECT_DIR$/mark-pc/order/address.html" />
         <option value="$PROJECT_DIR$/meiyue/mart/mart.css" />
-        <option value="$PROJECT_DIR$/kycs/dist/css/meiyue.css" />
         <option value="$PROJECT_DIR$/kycs/myorder.html" />
-        <option value="$PROJECT_DIR$/kycs/my.html" />
         <option value="$PROJECT_DIR$/kycs/financialdetails.html" />
         <option value="$PROJECT_DIR$/kycs/myinvitation.html" />
+        <option value="$PROJECT_DIR$/kycs/my.html" />
+        <option value="$PROJECT_DIR$/kycs/wealth.html" />
+        <option value="$PROJECT_DIR$/kycs/dist/css/meiyue.css" />
       </list>
     </option>
   </component>
@@ -414,12 +411,12 @@
       <workItem from="1491964059920" duration="6150000" />
       <workItem from="1492052113313" duration="1224000" />
       <workItem from="1492656892127" duration="1357000" />
-      <workItem from="1493013388048" duration="3625000" />
+      <workItem from="1493013388048" duration="3936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179976000" />
+    <option name="totallyTimeSpent" value="180287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -461,22 +458,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mark-pc/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mark-pc/sale.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mark-pc/details.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -569,14 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kycs/dist/css/meiyue.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="3655" column="24" selection-start-line="3655" selection-start-column="24" selection-end-line="3655" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -857,22 +830,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kycs/my.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kycs/myinvitation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+        <state relative-caret-position="390">
+          <caret line="57" column="84" selection-start-line="57" selection-start-column="84" selection-end-line="57" selection-end-column="84" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kycs/Verify.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kycs/my.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kycs/dist/css/meiyue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="3959" column="0" selection-start-line="3959" selection-start-column="0" selection-end-line="3959" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kycs/wealth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="34" column="94" selection-start-line="34" selection-start-column="94" selection-end-line="34" selection-end-column="94" />
+          <folding />
         </state>
       </provider>
     </entry>
